@@ -1,25 +1,29 @@
 <template>
-    <div class="clamp-1280" id="contentKids">
+    <div class="grid" id="contentKids">
 
-      <!----- Header Section ----->
-      <section class="headerSection">
-      <div class="clamp-1280">
-          <img src="" alt="" class="logo">
-          Logo
-          <ul class="menu">
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#workshops">Workshops</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#rates">Rates & Bookings</a></li>
-          </ul>
-      </div>
-      </section>
+<!----- Header Section START ----->
 
-      <!----- About Section ----->
+      <header class="headerSection clamp-1280">
+        <nav>
+          <div class="grid">
+            <img src="" alt="" class="logo">
+            Logo
+            <ul class="menu">
+              <li><a href="#about">About Me</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#workshops">Workshops</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#rates">Rates & Bookings</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
 
-      <section class="aboutSection" id="about">
-        <div class="clamp-1280">About Sections goes here
+<!---------------------------------------------------------------------------------->
+<!----- About Section START ----->
+
+      <section class="aboutSection clamp-1280" id="about">
+        <div class="grid">
           <div class="title"></div>
           <div class="aboutImg">
             <img src="" alt="About IMG goes here">
@@ -28,6 +32,56 @@
         </div>
       </section>
 
+<!---------------------------------------------------------------------------------->
+<!----- Collaborations Section START ----->
+
+      <section class="clamp-1280" id="collaboration">
+        <div class="collaborationsSection">
+          <div class="tile">Collabs</div>
+          <h2>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi consequuntur dignissimos dolores ex!
+          </h2>
+        </div>
+      </section>
+
+<!---------------------------------------------------------------------------------->
+<!----- Services Section START ----->
+
+      <section class="servicesSection clamp-1280" id="services">
+        <div class="grid">
+
+            <div class="gridColumn">
+              <img src="" alt="1" class="servicesImg">
+              <h1>Lorem ipsum dolor sit amet.</h1>
+                <h2>Lorem ipsum dolor.</h2>
+            </div>
+
+            <div class="gridColumn">
+              <img src="" alt="2" class="servicesImg">
+              <h1>Lorem ipsum dolor sit amet.</h1>
+                <h2>Lorem ipsum dolor.</h2>
+            </div>
+
+            <div class="gridColumn">
+              <img src="" alt="3" class="servicesImg">
+              <h1>Lorem ipsum dolor sit amet.</h1>
+                <h2>Lorem ipsum dolor.</h2>
+            </div>
+
+        </div>
+      </section>
+
+<!---------------------------------------------------------------------------------->
+<!----- Workshops Section START ----->
+
+      <section class="clamp-1280 workshopSection">
+
+
+
+
+      </section>
+
+<!---------------------------------------------------------------------------------->
 
 
 
@@ -35,27 +89,8 @@
 </template>
 
 <style lang="less">
-  @import "css/global.less";
-  @import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700&display=swap');
+  @import "css/global.css";
 
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
 
-#nav {
-  padding: 30px;
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
 </style>
