@@ -37,6 +37,13 @@ section {
     display: flex;
 }
 
+.header-section {
+    background-color: aqua;
+}
+
+.header-img {
+    width: 100px;
+}
 
 
 /*---- Menu ----*/

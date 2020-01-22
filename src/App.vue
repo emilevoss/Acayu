@@ -7,7 +7,7 @@
         <nav>
           <div class="flex-header">
               <div class="header-img">
-                <img src="assets/400dpiLogo.png.png" alt="" class="logo">
+                <img src="assets/400dpiLogo.png" alt="" class="logo">
               </div>
               <div class="header-list">
                 <ul class="menu">
