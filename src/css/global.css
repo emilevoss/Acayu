@@ -73,6 +73,7 @@ section {
 
 .header-logo {
     width: 200px;
+    align-items: center;
 }
 
 
@@ -113,9 +114,17 @@ section {
 /*-------------------------------------------- Banner ----*/
 
 .banner {
-    background-color: #525252;
+    background-image: url("../assets/banner-bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
 }
+ .banner-text {
+     position: absolute;
+     width: 1280px
 
+ }
 
 /*-------------------------------------------- About Me ----*/
 

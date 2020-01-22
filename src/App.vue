@@ -20,7 +20,7 @@
       <div class="banner">
           <div class="banner-text">
               <h2>
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <p>Header is going here</p>
               </h2>
           </div>
       </div>
