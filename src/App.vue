@@ -3,9 +3,9 @@
 
 <!----- Header Section START ----->
 
-      <header class="header-section">
+      <div class="header-section">
               <div class="header-img">
-                <img src="assets/SmallLogo.jpg" alt="" class="header-logo">
+                <img src="@/assets/SmallLogo.jpg" alt="" class="header-logo">
               </div>
               <div class="header-list">
                 <ul class="menu">
@@ -16,14 +16,12 @@
                     <li><a href="#rates">Rates & Bookings</a></li>
                 </ul>
               </div>
-      </header>
+      </div>
       <div class="banner">
           <div class="banner-text">
-              <div class="banner-text-items">
-                  <h2>
-                      <p>Lorem ipsum dolor sit amet.</p>
-                  </h2>
-              </div>
+              <h2>
+                  <p>Lorem ipsum dolor sit amet.</p>
+              </h2>
           </div>
       </div>
 
