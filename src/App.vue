@@ -1,20 +1,23 @@
 <template>
-    <div class="grid" id="contentKids">
+    <div class="content-kids" id="contentKids">
 
 <!----- Header Section START ----->
 
-      <header class="headerSection clamp-1280">
+      <header class="header-section clamp-1280">
         <nav>
-          <div class="grid">
-            <img src="" alt="" class="logo">
-            Logo
-            <ul class="menu">
-              <li><a href="#about">About Me</a></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#workshops">Workshops</a></li>
-              <li><a href="#contact">Contact</a></li>
-              <li><a href="#rates">Rates & Bookings</a></li>
-            </ul>
+          <div class="flex-header">
+              <div class="header-img">
+                <img src="assets/400dpiLogo.png.png" alt="" class="logo">
+              </div>
+              <div class="header-list">
+                <ul class="menu">
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#workshops">Workshops</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#rates">Rates & Bookings</a></li>
+                </ul>
+              </div>
           </div>
         </nav>
       </header>
@@ -22,21 +25,21 @@
 <!---------------------------------------------------------------------------------->
 <!----- About Section START ----->
 
-      <section class="aboutSection clamp-1280" id="about">
-        <div class="grid">
+      <section class="about-section clamp-1280" id="about">
+        <div class="flex-about">
           <div class="title"></div>
-          <div class="aboutImg">
+          <div class="about-img">
             <img src="" alt="About IMG goes here">
           </div>
-          <div class="aboutText">About Text goes here</div>
+          <div class="about-text">About Text goes here</div>
         </div>
       </section>
 
 <!---------------------------------------------------------------------------------->
 <!----- Collaborations Section START ----->
 
-      <section class="clamp-1280" id="collaboration">
-        <div class="collaborationsSection">
+      <section class="clamp-1280 collaborations-section" id="collaboration">
+        <div class="flex-colab">
           <div class="tile">Collabs</div>
           <h2>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi consequuntur dignissimos dolores ex!
@@ -47,22 +50,22 @@
 <!---------------------------------------------------------------------------------->
 <!----- Services Section START ----->
 
-      <section class="servicesSection clamp-1280" id="services">
-        <div class="grid">
+      <section class="services-section clamp-1280" id="services">
+        <div class="container-services">
 
-            <div class="gridColumn">
+            <div class="container-1">
               <img src="" alt="1" class="servicesImg">
               <h1>Lorem ipsum dolor sit amet.</h1>
                 <h2>Lorem ipsum dolor.</h2>
             </div>
 
-            <div class="gridColumn">
+            <div class="container-2">
               <img src="" alt="2" class="servicesImg">
               <h1>Lorem ipsum dolor sit amet.</h1>
                 <h2>Lorem ipsum dolor.</h2>
             </div>
 
-            <div class="gridColumn">
+            <div class="container-3">
               <img src="" alt="3" class="servicesImg">
               <h1>Lorem ipsum dolor sit amet.</h1>
                 <h2>Lorem ipsum dolor.</h2>
@@ -74,7 +77,7 @@
 <!---------------------------------------------------------------------------------->
 <!----- Workshops Section START ----->
 
-      <section class="clamp-1280 workshopSection">
+      <section class="clamp-1280 workshop-section" id="workshops">
 
 
 

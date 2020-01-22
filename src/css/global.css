@@ -10,11 +10,14 @@ html, body {
     box-sizing: border-box;
 }
 
+header {
+}
+
 section {
     padding: 30px 0;
 }
 .wrapper {
-    display: grid;
+    display: flex;
 }
 
 .clamp-1280 {
@@ -22,14 +25,25 @@ section {
     margin: 0 auto;
 }
 
+.logo {
+    width: 100px;
+    height: auto;
+}
+
 
 /*---- Header ----*/
+
+.flex-header {
+    display: flex;
+}
 
 
 
 /*---- Menu ----*/
 
+.menu {
 
+}
 
 
 /*---- About Me ----*/
