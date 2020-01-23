@@ -54,9 +54,9 @@ section {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    padding-bottom: 50px;
     color: #000000;
     overflow: hidden;
+    padding: 40px 0;
 }
 
 .header-list {
@@ -116,15 +116,13 @@ section {
 .banner {
     background-image: url("../assets/banner-bg.jpeg");
     background-size: cover;
-    background-position: center;
+    background-position: center top;
     height: 100vh;
     background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
- .banner-text {
-     position: absolute;
-     width: 1280px
-
- }
 
 /*-------------------------------------------- About Me ----*/
 
