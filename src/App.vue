@@ -29,13 +29,14 @@
 <!----- About Section START ----->
 
       <section class="about-section clamp-1280" id="about">
-        <div class="flex-about">
-          <div class="title"></div>
-          <div class="about-img">
-            <img src="" alt="About IMG goes here">
+          <div class="title">About Me</div>
+          <div class="flex-about">
+            <div class="about-img-container">
+                <img src="@/assets/SmallLogo.jpg" class="about-img" alt="About IMG goes here">
+            </div>
+            <div class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam commodi consequuntur eius esse, est fugit hic inventore, laboriosam minima natus nemo nostrum placeat praesentium quas quibusdam quo reiciendis saepe sint tempore veritatis. A accusamus, accusantium atque culpa debitis dicta doloribus dolorum eius enim expedita fuga illum labore laborum magnam minus modi quae quam qui rem repudiandae saepe totam ut vitae!</div>
           </div>
-          <div class="about-text">About Text goes here</div>
-        </div>
+
       </section>
 
 <!---------------------------------------------------------------------------------->

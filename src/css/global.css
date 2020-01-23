@@ -45,6 +45,13 @@ section {
     margin: 0 auto;
 }
 
+.title {
+    font-size: 130%;
+    text-align: center;
+    padding: 20px 0;
+
+}
+
 
 /*----------------------------- Header --------------------*/
 
@@ -126,7 +133,20 @@ section {
 
 /*-------------------------------------------- About Me ----*/
 
+.flex-about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.about-img-container {
+    padding: 0 80px 0 0;
+}
+
+.about-img {
+    width: auto;
+    height: auto;
+}
 
 
 /*-------------------------------------------- Services ----*/
