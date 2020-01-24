@@ -8,34 +8,53 @@ html, body {
     text-rendering: optimizeLegibility;
 }
 
+
 h1,
 h2,
-h3 {
-    font-weight: 300;
-    text-transform: uppercase;
+h3,
+p {
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+
 }
 
-h1 {
-    margin-top: 0;
-    margin-bottom: 20px;
-    color: #fff;
+h1, .banner-text {
+    margin-top: 70px;
+    margin-bottom: 70px;
     font-size: 240%;
-    word-spacing: 4px;
-    letter-spacing: 1px;
+    text-align: center;
+    color: #383838;
+}
+
+h1:after {
+    display: block;
+    height: 2px;
+    background-color: #02a81d;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 h2 {
-    font-size: 180%;
-    word-spacing: 2px;
+    font-size: 200%;
     text-align: center;
-    margin-bottom: 30px;
-    letter-spacing: 1px;
+    margin-bottom: 100px;
+    color: #414141;
 }
 
 h3 {
     font-size: 110%;
     margin-bottom: 15px;
+    color: #4b4b4b;
 }
+
+p {
+    color: #8a8a8a;
+}
+
+
 section {
     padding: 30px 0;
 }
@@ -45,12 +64,6 @@ section {
     margin: 0 auto;
 }
 
-.title {
-    font-size: 130%;
-    text-align: center;
-    padding: 20px 0;
-
-}
 
 
 /*----------------------------- Header --------------------*/
@@ -59,8 +72,9 @@ section {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
+    align-content: space-around;
     color: #000000;
     overflow: hidden;
     padding: 40px 0;
@@ -68,21 +82,21 @@ section {
 
 .header-list {
     order: 2;
-    flex-basis: 100%;
+    justify-self: flex-end;
 }
 
 .header-img {
     padding: 10px;
     order: 1;
-    flex-basis: 100%;
     text-align: center;
+    width: 37%;
 }
 
 .header-logo {
-    width: 200px;
-    align-items: center;
+    width: 100%;
+    max-width: 60%;
+    height: auto;
 }
-
 
 /*--------------------------------- Menu ----------------------*/
 
@@ -98,7 +112,7 @@ section {
 .menu li {
     color: #000000;
     display: inline-block;
-    margin-left: 20px;
+    margin-right: 50px;
     flex-shrink: 0;
 }
 
@@ -109,13 +123,13 @@ section {
     border-bottom: 2px solid transparent;
     transition: border-bottom, font-size 0.5s;
     padding: 5px 0;
-    font-size: 90%;
+    font-size: 100%;
 }
 
 .menu li a:hover,
 .menu li a:active {
     border-bottom: 2px solid #02e61f;
-    font-size: 100%;
+    font-size: 110%;
 }
 
 /*-------------------------------------------- Banner ----*/
@@ -130,6 +144,16 @@ section {
     justify-content: center;
     align-items: center;
 }
+
+.banner-text {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-size: 240%;
+    text-align: center;
+    color: #ffffff;
+}
+
+
 
 /*-------------------------------------------- About Me ----*/
 
@@ -148,14 +172,66 @@ section {
     height: auto;
 }
 
+.about-text {
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    line-height: 145%;
+
+}
+
+/*-------------------------------------------- Collabs ----*/
+
+.collaborations-section {
+    background-color: #fcfcfc;
+}
+
+.flex-collab {
+    display: flex;
+
+}
+
+.flex-collab div {
+    margin: 0 30px;
+    text-align: justify;
+}
+
+.collab-info {
+    color: #838383;
+    font-size: 80%;
+}
+
+
+
 
 /*-------------------------------------------- Services ----*/
 
 
+.services-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.servicesImg {text-align: center; }
+
+.services-offering { padding: 0 60px; flex: 1; }
+
+.services-image {
+    width: 200px;
+    padding: 30px 0
+}
 
 
 /*-------------------------------------------- Workshops ----*/
 
+
+.workshop-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.workshop-offering { padding: 0 60px; flex: 1; }
 
 
 
