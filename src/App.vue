@@ -62,7 +62,7 @@
 <!---------------------------------------------------------------------------------->
 <!----- Services Section START ----->
 
-      <section class="services-section" id="services">
+      <section class="services-section clamp-1280" id="services">
           <h1>Services</h1>
         <div class="services-container">
             <div class="services-offering">

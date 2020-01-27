@@ -19,9 +19,8 @@ p {
 
 }
 
-h1, .banner-text {
-    margin-top: 70px;
-    margin-bottom: 70px;
+h1 {
+    margin: 6% 0;
     font-size: 200%;
     text-align: center;
     color: #383838;
@@ -147,8 +146,6 @@ section {
 }
 
 .banner-text {
-    margin-top: 70px;
-    margin-bottom: 70px;
     font-size: 240%;
     text-align: center;
     color: #ffffff;
@@ -160,39 +157,26 @@ section {
 
 .parent-container-2 {
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
 .child-of-2 {
-    padding: 0 20px;
+    padding: 0 2%;
+    width: 50%;
 
 }
 
 .child-of-2 img {
-    max-width: 500px;
+    width: 100%;
 }
 
 /*-------------------------------------------- Collabs ----*/
 
 
-.flex-collab {
-    display: flex;
-
-}
-
-.flex-collab div {
-    margin: 0 30px;
-    text-align: justify;
-    align-items: center;
-}
-
 .collab-info {
     color: #838383;
     font-size: 80%;
 }
-
-
 
 
 /*-------------------------------------------- Services ----*/
@@ -206,7 +190,7 @@ section {
 
 .servicesImg {text-align: center; }
 
-.services-offering { padding: 0 60px; flex: 1; }
+.services-offering { padding: 0 2%; flex: 1; }
 
 .services-image {
     width: 200px;
