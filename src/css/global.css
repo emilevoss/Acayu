@@ -4,7 +4,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Comfortaa', 'sans-serif';
-    font-size: 20px;
+    font-size: 16px;
     text-rendering: optimizeLegibility;
 }
 
@@ -22,7 +22,7 @@ p {
 h1, .banner-text {
     margin-top: 70px;
     margin-bottom: 70px;
-    font-size: 240%;
+    font-size: 200%;
     text-align: center;
     color: #383838;
 }
@@ -38,7 +38,7 @@ h1:after {
 }
 
 h2 {
-    font-size: 200%;
+    font-size: 170%;
     text-align: center;
     margin-bottom: 100px;
     color: #414141;
@@ -61,6 +61,7 @@ section {
 
 .clamp-1280 {
     max-width: 1280px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -157,33 +158,23 @@ section {
 
 /*-------------------------------------------- About Me ----*/
 
-.flex-about {
+.parent-container-2 {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.about-img-container {
-    padding: 0 80px 0 0;
+.child-of-2 {
+    padding: 0 20px;
+
 }
 
-.about-img {
-    width: auto;
-    height: auto;
-}
-
-.about-text {
-    letter-spacing: 1px;
-    word-spacing: 4px;
-    line-height: 145%;
-
+.child-of-2 img {
+    max-width: 500px;
 }
 
 /*-------------------------------------------- Collabs ----*/
 
-.collaborations-section {
-    background-color: #fcfcfc;
-}
 
 .flex-collab {
     display: flex;
@@ -193,6 +184,7 @@ section {
 .flex-collab div {
     margin: 0 30px;
     text-align: justify;
+    align-items: center;
 }
 
 .collab-info {

@@ -26,13 +26,15 @@
 <!---------------------------------------------------------------------------------->
 <!----- About Section START ----->
 
-      <section class="about-section clamp-1280" id="about">
+      <section class="clamp-1280" id="about">
           <h1>About Me</h1>
-          <div class="flex-about">
-            <div class="about-img-container">
-                <img src="@/assets/SmallLogo.jpg" class="about-img" alt="About IMG goes here">
+          <div class="parent-container-2">
+            <div class="child-of-2">
+             <img src="@/assets/SmallLogo.jpg" alt="About IMG goes here">
             </div>
-            <h3>My name is Candice Voss, I have a psychology background and have worked as an au pair, facilitator at mainstream schools and as a therapist at a specialised therapy intervention centre for children with social, emotional, communication challenges and behavioural difficulties. For the past several years I worked at an NPO focusing on Autism, family support, parent and professional workshops, behaviour management, school support and training as well as support at Tygerberg Hospital and Red Cross Children’s Hospital. Content-Kids is my private practice where I focus on parenting support, inclusive education and teacher support as well as special needs support with a specific focus on autism, behavior management and alternative communication systems.</h3>
+            <div class="child-of-2">
+             <h3>My name is Candice Voss, I have a psychology background and have worked as an au pair, facilitator at mainstream schools and as a therapist at a specialised therapy intervention centre for children with social, emotional, communication challenges and behavioural difficulties. For the past several years I worked at an NPO focusing on Autism, family support, parent and professional workshops, behaviour management, school support and training as well as support at Tygerberg Hospital and Red Cross Children’s Hospital. Content-Kids is my private practice where I focus on parenting support, inclusive education and teacher support as well as special needs support with a specific focus on autism, behavior management and alternative communication systems.</h3>
+            </div>
           </div>
 
       </section>
@@ -40,24 +42,22 @@
 <!---------------------------------------------------------------------------------->
 <!----- Collaborations Section START ----->
 
-    <div class="collaborations-section">
       <section class="clamp-1280" id="collaboration">
           <h1>Collabs</h1>
           <div class="collab-info">
               <h2>I work at Cape Town Therapy Hub on a Tuesday afternoons and consult closely with Naomi Botha from Speak Autism</h2>
           </div>
-        <div class="flex-collab">
-            <div>
+          <div class="parent-container-2">
+            <div class="child-of-2">
                 <h3>Cape Town Therapy Hub</h3>
                 <p>Cape Town Therapy Hub is a therapeutic center located in Green Point. The Center offers psychological services, speech therapists, occupational therapists, dietetics, diagnostic educational assessments, parent support as well as autism support. Therapists are all part of a multidisciplinary team who have a wealth of knowledge and experience working with families and children. The vision of Cape Town Therapy Hub is to offer professional and personalised therapeutic services to clients in a multidisciplinary team environment.</p>
             </div>
-            <div>
+            <div class="child-of-2">
                 <h3>Speak Autism!</h3>
                 <p>Naomi uses a wide range of tried and tested key support strategies and teaching tools, for supporting and meeting the individual needs of our children with Asperger which falls on the Autism spectrum. She uses developmental and behavioural approaches to focus on the individual differences of each child; providing relationship based interventions with the goals of releasing potential, increasing understanding, developing confidence, improving skills and changing behaviour</p>
             </div>
         </div>
       </section>
-    </div>
 
 <!---------------------------------------------------------------------------------->
 <!----- Services Section START ----->
@@ -190,6 +190,7 @@
 
 <style lang="less">
   @import "css/global.css";
+  @import "css/queries.css";
 
 
 
