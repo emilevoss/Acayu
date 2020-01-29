@@ -23,16 +23,17 @@
           </div>
       </div>
 
+
 <!---------------------------------------------------------------------------------->
 <!----- About Section START ----->
 
       <section class="clamp-1280" id="about">
           <h1>About Me</h1>
           <div class="parent-container-2">
-            <div class="child-of-2">
+            <div class="child-of-1-2 about-img">
              <img src="@/assets/SmallLogo.jpg" alt="About IMG goes here">
             </div>
-            <div class="child-of-2">
+            <div class="child-of-2-2">
              <h3>My name is Candice Voss, I have a psychology background and have worked as an au pair, facilitator at mainstream schools and as a therapist at a specialised therapy intervention centre for children with social, emotional, communication challenges and behavioural difficulties. For the past several years I worked at an NPO focusing on Autism, family support, parent and professional workshops, behaviour management, school support and training as well as support at Tygerberg Hospital and Red Cross Children’s Hospital. Content-Kids is my private practice where I focus on parenting support, inclusive education and teacher support as well as special needs support with a specific focus on autism, behavior management and alternative communication systems.</h3>
             </div>
           </div>
@@ -48,11 +49,11 @@
               <h2>I work at Cape Town Therapy Hub on a Tuesday afternoons and consult closely with Naomi Botha from Speak Autism</h2>
           </div>
           <div class="parent-container-2">
-            <div class="child-of-2">
+            <div class="collab-child-of-1-2">
                 <h3>Cape Town Therapy Hub</h3>
                 <p>Cape Town Therapy Hub is a therapeutic center located in Green Point. The Center offers psychological services, speech therapists, occupational therapists, dietetics, diagnostic educational assessments, parent support as well as autism support. Therapists are all part of a multidisciplinary team who have a wealth of knowledge and experience working with families and children. The vision of Cape Town Therapy Hub is to offer professional and personalised therapeutic services to clients in a multidisciplinary team environment.</p>
             </div>
-            <div class="child-of-2">
+            <div class="child-of-2-2">
                 <h3>Speak Autism!</h3>
                 <p>Naomi uses a wide range of tried and tested key support strategies and teaching tools, for supporting and meeting the individual needs of our children with Asperger which falls on the Autism spectrum. She uses developmental and behavioural approaches to focus on the individual differences of each child; providing relationship based interventions with the goals of releasing potential, increasing understanding, developing confidence, improving skills and changing behaviour</p>
             </div>
@@ -64,8 +65,8 @@
 
       <section class="services-section clamp-1280" id="services">
           <h1>Services</h1>
-        <div class="services-container">
-            <div class="services-offering">
+        <div class="parent-container-3">
+            <div class="child-of-1-3">
                 <div class="servicesImg">
               <img src="@/assets/SmallLogo.jpg" class="services-image" alt="">
                 </div>
@@ -80,7 +81,7 @@
                     Positive parenting<br><br>
                     Behavior management</p>
             </div>
-            <div class="services-offering">
+            <div class="child-of-1-3">
                 <div class="servicesImg">
                     <img src="@/assets/SmallLogo.jpg" class="services-image" alt="">
                 </div>
@@ -92,7 +93,7 @@
                         IEP assistance
                         Facilitation placement and training</p>
             </div>
-            <div class="services-offering">
+            <div class="child-of-1-3">
                 <div class="servicesImg">
                     <img src="@/assets/SmallLogo.jpg" class="services-image" alt="">
                 </div>
@@ -117,22 +118,22 @@
 
        <section class="clamp-1280 workshop-section" id="workshops">
               <h1>Workshops</h1>
-              <div class="workshop-container">
-                  <div class="workshop-offering">
+              <div class="parent-container-3">
+                  <div class="child-of-1-3">
                       <h3>Parent Workshops</h3>
                       <p>Positive Parenting<br>
                           Behaviour Management<br>
                           Toilet Training
                       </p>
                   </div>
-                  <div class="workshop-offering">
+                  <div class="child-of-1-3">
                       <h3>Teacher Workshops</h3>
                       <p>Behaviour management in the classroom
                           Inclusive Strategies for the classroom
                           What is Autism
                       </p>
                   </div>
-                  <div class="workshop-offering">
+                  <div class="child-of-1-3">
                       <h3>Student Talks</h3>
                       <p>What is Autism (Children 3-6 years old) <br><br>
                           What is Autism (Children 6-14 years old)<br><br>
@@ -148,21 +149,21 @@
 
        <section class="clamp-1280 workshop-section" id="rates">
             <h1>Rates & Bookings</h1>
-            <div class="workshop-container">
-                <div class="workshop-offering">
+            <div class="parent-container-3">
+                <div class="child-of-1-3">
                     <h3>Therapy sessions</h3>
                     <p>Therapy sessions are an hour long and can take place at my offices in Bergvliet or Sea Point.<br><br>
                         R500 per hour and R250 per half hour thereafter
                     </p>
                 </div>
-                <div class="workshop-offering">
+                <div class="child-of-1-3">
                     <h3>Home visits</h3>
                     <p>R500 per hour and R250 per half hour thereafter<br><br>
                         Billed hours include travel time<br>
                         AA rates may apply
                     </p>
                 </div>
-                <div class="workshop-offering">
+                <div class="child-of-1-3">
                     <h3>Workshops</h3>
                     <p>Workshops costs vary depending on the size and length of workshop.<br><br>
                         Parent workshops are roughly R250 per family<br><br>
