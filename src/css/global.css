@@ -58,7 +58,7 @@ p {
 
 
 section {
-    padding: 3% 0;
+    padding: 4.2% 0;
 }
 
 .clamp-1280 {
@@ -66,26 +66,6 @@ section {
     width: 100%;
     margin: 0 auto;
 }
-
-/*----------------------------- Sticky Navigation --------------------*/
-
-.sticky {
-    position: fixed;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.98);
-    box-shadow: 0 2px 2px #eaeaea;
-    display: flex;
-    align-items: center;
-    padding: 0.5% 0;
-    justify-content: space-around;
-}
-
-
-.sticky .header-img {
-    width: 10%;
-}
-
-
 /*----------------------------- Header --------------------*/
 
 .header-section {

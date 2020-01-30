@@ -6,8 +6,8 @@
 <!--header-section sticky-->
       <div class="header-section">
               <div class="header-img">
-                <img src="@/assets/SmallLogo.jpg" alt="" class="header-logo">
-      </div>
+                <img src="@/assets/400dpiLogo.png" alt="" class="header-logo">
+              </div>
               <div class="header-list">
                 <ul class="menu">
                     <li><a href="#about">About Me</a></li>
@@ -18,11 +18,11 @@
                 </ul>
               </div>
       </div>
-      <div class="banner">
+       <div class="banner">
           <div class="banner-text">
               Every accomplishment starts with the decision to try
           </div>
-      </div>
+       </div>
 
 
 <!---------------------------------------------------------------------------------->
