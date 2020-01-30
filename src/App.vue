@@ -3,10 +3,11 @@
 
 <!----- Header Section START ----->
 
+<!--header-section sticky-->
       <div class="header-section">
               <div class="header-img">
                 <img src="@/assets/SmallLogo.jpg" alt="" class="header-logo">
-              </div>
+      </div>
               <div class="header-list">
                 <ul class="menu">
                     <li><a href="#about">About Me</a></li>
@@ -26,8 +27,8 @@
 
 <!---------------------------------------------------------------------------------->
 <!----- About Section START ----->
-
-      <section class="clamp-1280" id="about">
+<div id="about"></div>
+      <section class="clamp-1280">
           <h1>About Me</h1>
           <div class="parent-container-2">
             <div class="child-of-1-2 about-img">
@@ -42,8 +43,8 @@
 
 <!---------------------------------------------------------------------------------->
 <!----- Collaborations Section START ----->
-
-      <section class="clamp-1280" id="collaboration">
+        <div id="collaboration"></div>
+      <section class="clamp-1280">
           <h1>Collabs</h1>
           <div class="collab-info">
               <h2>I work at Cape Town Therapy Hub on a Tuesday afternoons and consult closely with Naomi Botha from Speak Autism</h2>
@@ -192,6 +193,7 @@
 <style lang="less">
   @import "css/global.css";
   @import "css/queries.css";
+  @import "JS/script.js";
 
 
 
