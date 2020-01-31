@@ -3,26 +3,22 @@
 
 <!----- Header Section START ----->
 
-<!--header-section sticky-->
-      <div class="header-section">
-              <div class="header-img">
-                <img src="@/assets/400dpiLogo.png" alt="" class="header-logo">
-              </div>
-              <div class="header-list">
-                <ul class="menu">
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#workshops">Workshops</a></li>
-                    <li><a href="#rates">Rates & Bookings</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-              </div>
-      </div>
-       <div class="banner">
-          <div class="banner-text">
-              Every accomplishment starts with the decision to try
-          </div>
-       </div>
+<div class="menu">
+    <div class="menu-bar">
+        <div class="menu-left">
+            <img class="menu-img" src="assets/400dpiLogo.png" alt="">
+
+        </div>
+        <div class="menu-right">
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
 
 
 <!---------------------------------------------------------------------------------->

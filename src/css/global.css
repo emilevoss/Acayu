@@ -68,85 +68,27 @@ section {
 }
 /*----------------------------- Header --------------------*/
 
-.header-section {
-    display: flex;
-    position: fixed;
-    justify-content: space-between;
-    align-items: center;
-    overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.98);
-    box-shadow: 0 2px 2px #eaeaea;
-    width: 100%;
-
-}
-
-.header-img {
-    text-align: center;
-    width: 20%;
-    padding-left: 6%;
-}
-
-.header-logo {
-    width: 100%;
-    height: auto;
-}
-
-.header-list {
-    width: 75%;
-    padding-right: 2%;
-}
 
 /*--------------------------------- Menu ----------------------*/
 
 .menu {
-    list-style: none;
+
+}
+
+.menu-bar {
     display: flex;
-    text-decoration: none;
-    margin-right: 5%;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
 }
 
-.menu li {
-    color: #000000;
-    display: inline-block;
-    margin-right: 5%;
-    flex-shrink: 0;
+.menu-left {
+    width: 20%;
 }
 
-.menu li a:link,
-.menu li a:visited {
-    color: #000000;
-    text-decoration: none;
-    border-bottom: 2px solid transparent;
-    transition: border-bottom, 0.3s;
-    padding: 9px 0;
-    font-size: 100%;
-}
-
-.menu li a:hover,
-.menu li a:active {
-    border-bottom: 2px solid #02e61f;
+.menu-left {
+    width: 20%;
 }
 
 /*-------------------------------------------- Banner ----*/
 
-.banner {
-    background-image: url("../assets/banner-bg.jpeg");
-    background-size: cover;
-    background-position: center top;
-    height: 100vh;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.banner-text {
-    font-size: 240%;
-    text-align: center;
-    color: #ffffff;
-}
 
 
 
@@ -224,6 +166,5 @@ section {
 
 
 /*-------------------------------------------- Rates & Bookings ----*/
-
 
 
