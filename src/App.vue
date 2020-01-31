@@ -3,21 +3,53 @@
 
 <!----- Header Section START ----->
 
-<div class="menu">
+<div class="header-wrap">
     <div class="menu-bar">
         <div class="menu-left">
             <img class="menu-img" src="@/assets/400dpiLogo.png" alt="">
-
         </div>
-        <div class="menu-right">
-            <p>dfdfcdd</p>
-
+        <div class="container">
+            <nav class="navbar">
+                <div class="hamburger-menu">
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                    <div class="line line-3"></div>
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About Me</a>
+                    </li>
+                </ul>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Collabs</a>
+                    </li>
+                </ul>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Services</a>
+                    </li>
+                </ul>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Workshops</a>
+                    </li>
+                </ul>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Rates & Bookings</a>
+                    </li>
+                </ul>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
 
         </div>
     </div>
 </div>
-
-
 
 
 
