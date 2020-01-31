@@ -6,10 +6,11 @@
 <div class="menu">
     <div class="menu-bar">
         <div class="menu-left">
-            <img class="menu-img" src="assets/400dpiLogo.png" alt="">
+            <img class="menu-img" src="@/assets/400dpiLogo.png" alt="">
 
         </div>
         <div class="menu-right">
+            <p>dfdfcdd</p>
 
 
         </div>
