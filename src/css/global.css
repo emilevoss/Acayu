@@ -79,7 +79,6 @@ section {
     height: 100vh;
     background-image: url("../assets/banner-bg.jpeg");
     background-size: cover;
-
 }
 
 .hamburger-menu {
@@ -113,28 +112,27 @@ section {
     list-style: none;
     text-decoration: none;
     margin: 20px;
-
-
 }
 
-.nav-link {
+
+.nav-link:link,
+.nav-link:visited{
     text-decoration: none;
     color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 1px;
     position: relative;
+    padding: 3px 0;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom-color 0.4s;
 }
 
-.nav-link::before
-.nav-link::after {
-    content: "";
-    width: 80%;
-    height: 2px;
-    background-color: #02a81d;
-    position: absolute;
 
+.nav-link:hover,
+.nav-link:active {
+    border-bottom: 3px #02a81d solid;
+    font-weight: bolder;
 }
-
 
 .line {
     width: 100%;
@@ -146,7 +144,6 @@ section {
     justify-content: space-around;
     position: fixed;
     background-color: rgba(0, 0, 0, 0.20);
-
 }
 
 .menu-img {
@@ -154,6 +151,16 @@ section {
     height: auto;
 }
 
+.change .line-1 {
+    transform: rotateZ(-45deg) translate(-8px, 6px);
+}
+
+.change .line-3 {
+    transform: rotateZ(45deg) translate(-8px, -6px);
+}
+.change .line-2 {
+    opacity: 0;
+}
 
 
 /*-------------------------------------------- Banner ----*/
@@ -201,7 +208,7 @@ section {
     flex-wrap: wrap;
 }
 
-.servicesImg {text-align: center; }
+.servicesImg { text-align: center; }
 
 .child-of-1-3 { padding: 0 2%; width: 33% }
 
