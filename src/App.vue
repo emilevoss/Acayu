@@ -6,19 +6,25 @@
 <div class="header-wrap">
     <div class="header-section">
         <div class="header-logo">
-            <a title="Content-Kids" class="header-img">
-                <img src="@/assets/400dpiLogo.png">
+            <a title="Content-Kids" href="https://content-kids.com/">
+                <img src="@/assets/SmallLogo.png" class="header-img">
             </a>
         </div>
         <div class="header-menu">
-            <div class="header-text"></div>
-            <div class="header-burger"></div>
+            <div class="header-text">
+                <span>MENU</span>
+            </div>
+        <div class="header-burger">
+            <div class="line">1</div>
+            <div class="line">2</div>
+            <div class="line">3</div>
+        </div>
         </div>
     </div>
 </div>
 
 
-<!--<div class="header-wrap">-->
+                <!--<div class="header-wrap">-->
 <!--    <div class="menu-bar">-->
 <!--        <div class="menu-left">-->
 <!--            <img class="menu-img" src="@/assets/400dpiLogo.png" alt="">-->
