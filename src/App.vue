@@ -4,60 +4,75 @@
 <!----- Header Section START ----->
 
 <div class="header-wrap">
-    <div class="menu-bar">
-        <div class="menu-left">
-            <img class="menu-img" src="@/assets/400dpiLogo.png" alt="">
+    <div class="header-section">
+        <div class="header-logo">
+            <a title="Content-Kids" class="header-img">
+                <img src="@/assets/400dpiLogo.png">
+            </a>
         </div>
-        <div class="container">
-            <nav class="navbar">
-                <div class="hamburger-menu">
-                    <div class="line line-1"></div>
-                    <div class="line line-2"></div>
-                    <div class="line line-3"></div>
-                </div>
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">About Me</a>
-                    </li>
-                </ul>
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Collabs</a>
-                    </li>
-                </ul>
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Services</a>
-                    </li>
-                </ul>
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Workshops</a>
-                    </li>
-                </ul>
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Rates & Bookings</a>
-                    </li>
-                </ul>
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-
+        <div class="header-menu">
+            <div class="header-text"></div>
+            <div class="header-burger"></div>
         </div>
     </div>
 </div>
+
+
+<!--<div class="header-wrap">-->
+<!--    <div class="menu-bar">-->
+<!--        <div class="menu-left">-->
+<!--            <img class="menu-img" src="@/assets/400dpiLogo.png" alt="">-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <nav @click="onClick" class="navbar" :class="{open: isOpen}">-->
+<!--                <div class="hamburger-menu">-->
+<!--                    <div class="line line-1"></div>-->
+<!--                    <div class="line line-2"></div>-->
+<!--                    <div class="line line-3"></div>-->
+<!--                </div>-->
+<!--                <div class="nav-list-block" :class="{open: isOpen}">-->
+<!--                <ul class="nav-list">-->
+<!--                    <li class="nav-item">-->
+<!--                        <a href="#about" class="nav-link">About Me</a>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--                <ul class="nav-list">-->
+<!--                    <li class="nav-item">-->
+<!--                        <a href="#collaboration" class="nav-link">Collabs</a>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--                <ul class="nav-list">-->
+<!--                    <li class="nav-item">-->
+<!--                        <a href="#services" class="nav-link">Services</a>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--                <ul class="nav-list">-->
+<!--                    <li class="nav-item">-->
+<!--                        <a href="#workshops" class="nav-link">Workshops</a>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--                <ul class="nav-list">-->
+<!--                    <li class="nav-item">-->
+<!--                        <a href="#rates" class="nav-link">Rates & Bookings</a>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--                <ul class="nav-list">-->
+<!--                    <li class="nav-item">-->
+<!--                        <a href="#contact" class="nav-link">Contact</a>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--              </div>-->
+<!--            </nav>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
 
 
 
 
 <!---------------------------------------------------------------------------------->
 <!----- About Section START ----->
-<div id="about"></div>
-      <section class="clamp-1280">
+      <section class="clamp-1280" id="about">
           <h1>About Me</h1>
           <div class="parent-container-2">
             <div class="child-of-1-2 about-img">
@@ -222,8 +237,35 @@
 <style lang="less">
   @import "css/global.css";
   @import "css/queries.css";
-  @import "JS/script.js";
 
 
 
 </style>
+<script lang="ts">
+
+    import { Component, Vue } from 'vue-property-decorator';
+
+
+    @Component({
+
+    })
+    export default class App extends Vue {
+
+        addScroll (event:any) {
+
+
+        }
+
+
+        onClick (event:any) {
+            this.isOpen = !this.isOpen
+        };
+
+        isOpen: boolean = false;
+
+
+    }
+
+
+
+</script>
