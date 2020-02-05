@@ -15,9 +15,9 @@
                 <span>MENU</span>
             </div>
         <div class="header-burger">
-            <div class="line">1</div>
-            <div class="line">2</div>
-            <div class="line">3</div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
         </div>
         </div>
     </div>
