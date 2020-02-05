@@ -52,23 +52,6 @@
         padding: 0 10%;
     }
 
-    .navbar {
-        width: 59vw;
-    }
-
-    .hamburger-menu {
-        width: 4%;
-        height: 4%;
-        position: fixed;
-        top: 6%;
-        right: 4%;
-        cursor: pointer;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-
-    .navbar.open .line-1 { transform: rotateZ(-45deg) translate(-7px, 11px); }
 
 }
 
@@ -87,33 +70,6 @@
 
     h1 { font-size: 200%}
 
-    .banner {
-        height: 50vh;
-    }
-
-    /*.header-section {*/
-    /*    display: none;*/
-    /*}*/
-
-    .navbar {
-        width: 80vw;
-    }
-
-    .hamburger-menu {
-        width: 7%;
-        height: 4%;
-        position: fixed;
-        top: 6%;
-        right: 4%;
-        cursor: pointer;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-
-    .nav-block {
-        padding-top: 2%;
-    }
 
 }
 

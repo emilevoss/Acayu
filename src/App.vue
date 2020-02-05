@@ -14,11 +14,11 @@
             <div class="header-text">
                 <span>MENU</span>
             </div>
-        <div class="header-burger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </div>
+            <div @click="onClick" class="header-burger" :class="{open: isOpen}">
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+            </div>
         </div>
     </div>
 </div>
