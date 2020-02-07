@@ -240,7 +240,6 @@
 <style lang="less">
   @import "css/global.css";
   @import "css/queries.css";
-  @import "css/ionicons.min.css";
 
 
 
