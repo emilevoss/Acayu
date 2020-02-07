@@ -220,6 +220,7 @@
             </div>
             <div class="contact-wrap">
                 <div class="contact-cell">
+                    <img src="@/src/assets/phone-portrait-outline.svg" alt="">
                     <h3>0823791701</h3>
                 </div>
                 <div class="contact-email">
