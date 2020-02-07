@@ -141,6 +141,10 @@
                         Au pair training and support
                         School guidance</p>
             </div>
+            <div class="school-support">
+                <h2>School Support</h2>
+                <h3>Teacher support meetings can be arranged to discuss specific students in class, brainstorm inclusive strategies, behaviour management strategies as well as deepen understanding of differently-abled learners.</h3>
+            </div>
         </div>
       </section>
 
@@ -201,7 +205,9 @@
                         Please contact me for teacher workshops and student talks.
                     </p>
                 </div>
+
             </div>
+
         </section>
 
 <!---------------------------------------------------------------------------------->
@@ -211,6 +217,17 @@
             <h1>Contact</h1>
             <div class="collab-info">
                 <h2>If you have any quiries please contact me</h2>
+            </div>
+            <div class="contact-wrap">
+                <div class="contact-cell">
+                    <h3>0823791701</h3>
+                </div>
+                <div class="contact-email">
+                    <h3>candy@content-kids.com</h3>
+                </div>
+                <div class="contact-fb">
+                    <h3>Facebook</h3>
+                </div>
             </div>
         </section>
 
