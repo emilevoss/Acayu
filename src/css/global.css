@@ -265,14 +265,18 @@ section {
 
 
 
-/*-------------------------------------------- Contact ----*/
-
-
-
-
 /*-------------------------------------------- Rates & Bookings ----*/
 
 .school-support {
     text-align: center;
     padding-top: 7%;
+}
+
+
+/*-------------------------------------------- Contact ----*/
+
+.contact-wrap {
+    display: flex;
+    justify-content: space-between;
+
 }
