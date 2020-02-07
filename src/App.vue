@@ -23,58 +23,38 @@
     </div>
 </div>
 
-
-                <!--<div class="header-wrap">-->
-<!--    <div class="menu-bar">-->
-<!--        <div class="menu-left">-->
-<!--            <img class="menu-img" src="@/assets/400dpiLogo.png" alt="">-->
-<!--        </div>-->
-<!--        <div>-->
-<!--            <nav @click="onClick" class="navbar" :class="{open: isOpen}">-->
-<!--                <div class="hamburger-menu">-->
-<!--                    <div class="line line-1"></div>-->
-<!--                    <div class="line line-2"></div>-->
-<!--                    <div class="line line-3"></div>-->
-<!--                </div>-->
-<!--                <div class="nav-list-block" :class="{open: isOpen}">-->
-<!--                <ul class="nav-list">-->
-<!--                    <li class="nav-item">-->
-<!--                        <a href="#about" class="nav-link">About Me</a>-->
-<!--                    </li>-->
-<!--                </ul>-->
-<!--                <ul class="nav-list">-->
-<!--                    <li class="nav-item">-->
-<!--                        <a href="#collaboration" class="nav-link">Collabs</a>-->
-<!--                    </li>-->
-<!--                </ul>-->
-<!--                <ul class="nav-list">-->
-<!--                    <li class="nav-item">-->
-<!--                        <a href="#services" class="nav-link">Services</a>-->
-<!--                    </li>-->
-<!--                </ul>-->
-<!--                <ul class="nav-list">-->
-<!--                    <li class="nav-item">-->
-<!--                        <a href="#workshops" class="nav-link">Workshops</a>-->
-<!--                    </li>-->
-<!--                </ul>-->
-<!--                <ul class="nav-list">-->
-<!--                    <li class="nav-item">-->
-<!--                        <a href="#rates" class="nav-link">Rates & Bookings</a>-->
-<!--                    </li>-->
-<!--                </ul>-->
-<!--                <ul class="nav-list">-->
-<!--                    <li class="nav-item">-->
-<!--                        <a href="#contact" class="nav-link">Contact</a>-->
-<!--                    </li>-->
-<!--                </ul>-->
-<!--              </div>-->
-<!--            </nav>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
-
-
-
+        <div @click="onClick" class="nav-list-block" :class="{open: openMenu}">
+                            <ul class="nav-list">
+                                <li class="nav-item">
+                                    <a href="#about" class="nav-link">About Me</a>
+                                </li>
+                            </ul>
+                            <ul class="nav-list">
+                                <li class="nav-item">
+                                    <a href="#collaboration" class="nav-link">Collabs</a>
+                                </li>
+                            </ul>
+                            <ul class="nav-list">
+                                <li class="nav-item">
+                                    <a href="#services" class="nav-link">Services</a>
+                                </li>
+                            </ul>
+                            <ul class="nav-list">
+                                <li class="nav-item">
+                                    <a href="#workshops" class="nav-link">Workshops</a>
+                                </li>
+                            </ul>
+                            <ul class="nav-list">
+                                <li class="nav-item">
+                                    <a href="#rates" class="nav-link">Rates & Bookings</a>
+                                </li>
+                            </ul>
+                            <ul class="nav-list">
+                                <li class="nav-item">
+                                    <a href="#contact" class="nav-link">Contact</a>
+                                </li>
+                            </ul>
+                          </div>
 
 <!---------------------------------------------------------------------------------->
 <!----- About Section START ----->
@@ -265,9 +245,12 @@
 
         onClick (event:any) {
             this.isOpen = !this.isOpen
+            this.openMenu = !this.openMenu
         };
 
         isOpen: boolean = false;
+
+        openMenu: boolean = false
 
 
     }
