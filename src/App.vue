@@ -227,13 +227,36 @@
             <!---------------------------------------------------------------------------------->
             <!----- Form Section ----->
 
-            <div class="form-container clamp-1280">
-                <form action="" method="post">
-                    <div>
-                        <label class="form-label" for="">Name:</label>
-                        <input class="form-input" type="text" placeholder="Your Name">
+            <div class="form clamp-1280">
+                <form class="form-container">
+                    <div class="form-block">
+                        <label class="form-label" for="">First Name (required)</label>
+                        <input class="form-input" type="text" placeholder="e.g Name">
                     </div>
-
+                    <div class="form-block">
+                        <label class="form-label" for="">Last Name (required)</label>
+                        <input class="form-input" type="text" placeholder="e.g Surname">
+                    </div>
+                    <div class="form-block">
+                        <label class="form-label" for="">Subject:</label>
+                        <select name="Subject" id="option-select">
+                            <option value="">Lorem ipsum dolor sit.</option>
+                            <option value="">Lorem ipsum dolor sit.</option>
+                            <option value="">Lorem ipsum dolor sit.</option>
+                            <option value="">Lorem ipsum dolor sit.</option>
+                        </select>
+                    </div>
+                    <div class="form-block">
+                        <label class="form-label" for="">Your Email (required)</label>
+                        <input class="form-input" type="email" placeholder="e.g candy@content-kids.com">
+                    </div>
+                    <div class="form-block-1">
+                        <label class="form-label-1" for="">Your Message:</label>
+                        <textarea class="form-input-1" placeholder="Write something..."></textarea>
+                    </div>
+                    <div class="contact-btn">
+                        <input type="submit">
+                    </div>
                 </form>
             </div>
             <!---------------------------------------------------------------------------------->

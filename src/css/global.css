@@ -14,6 +14,7 @@ html, body {
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    color: #414141;
 }
 
 
@@ -275,13 +276,56 @@ section {
 
 /*-------------------------------------------- Contact ----*/
 
-.contact-wrap {
-    display: flex;
-    justify-content: space-between;
+
+input {
+    font-family: 'Comfortaa', 'sans-serif';
+    font-size: 130%;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%
 
 }
 
 .form-container {
-    padding: 5% 0 5% 0;
+    width: 100%;
+    margin: 0 auto;
 }
 
+.form-block {
+    margin-top: 30px;
+}
+
+.form-block-1 {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.form-label {
+    font-size: 140%;
+    padding-right: 5px;
+}
+
+.form-label-1 {
+    font-size: 140%;
+    padding: 0 0;
+}
+
+.form-input {
+    border: 1px solid #e2e2e2;
+    width: 58%;
+    padding: 5px 0 5px 10px
+}
+
+.form-input-1 {
+    border: 1px solid #e2e2e2;
+    width: 50%;
+}
+
+.contact-wrap {
+    display: flex;
+    justify-content: space-between;
+}
