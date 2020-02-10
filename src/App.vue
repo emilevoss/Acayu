@@ -248,6 +248,7 @@
 <script lang="ts">
 
     import { Component, Vue } from 'vue-property-decorator';
+    import {EvaIcons} from 'vue-eva-icons'
 
 
     @Component({
