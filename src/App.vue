@@ -220,7 +220,7 @@
             </div>
             <div class="contact-wrap">
                 <div class="contact-cell">
-                    <img src="" alt="">
+                    <v-icon name="flag"></v-icon>
                     <h3>0823791701</h3>
                 </div>
                 <div class="contact-email">
