@@ -210,6 +210,10 @@
 
         </section>
 
+
+        
+
+
 <!---------------------------------------------------------------------------------->
         <!----- Contact Section START ----->
 
@@ -218,6 +222,23 @@
             <div class="collab-info">
                 <h2>If you have any quiries please contact me</h2>
             </div>
+
+
+            <!---------------------------------------------------------------------------------->
+            <!----- Form Section ----->
+
+            <div class="form-container clamp-1280">
+                <form action="" method="post">
+                    <div>
+                        <label class="form-label" for="">Name:</label>
+                        <input class="form-input" type="text" placeholder="Your Name">
+                    </div>
+
+                </form>
+            </div>
+            <!---------------------------------------------------------------------------------->
+
+
             <div class="contact-wrap">
                 <div class="contact-cell">
                     <h3>0823791701</h3>
