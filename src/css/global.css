@@ -6,6 +6,11 @@
     padding: 0;
 }
 
+textarea {
+    font-family: 'Comfortaa', 'sans-serif';
+    color: #313131;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -311,7 +316,7 @@ input {
 
 .form-label-1 {
     font-size: 140%;
-    padding: 0 0;
+    padding: 0 0 10px 0;
 }
 
 .form-input {
@@ -323,9 +328,17 @@ input {
 .form-input-1 {
     border: 1px solid #e2e2e2;
     width: 50%;
+    height: 200px;
+    padding: 10px 0 0 10px;
 }
 
 .contact-wrap {
     display: flex;
     justify-content: space-between;
+}
+
+#option-select {
+    width: 300px;
+    font-family: 'Comfortaa', 'sans-serif';
+    padding: 2px 0  4px;
 }
