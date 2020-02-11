@@ -268,9 +268,11 @@
                     <h3>0823791701</h3>
                 </div>
                 <div class="contact-email">
+                    <img src="https://content-kids.com/wp-content/uploads/2018/12/iconfinder_mail-24_103176.png" alt="">
                     <h3>candy@content-kids.com</h3>
                 </div>
                 <div class="contact-fb">
+                    <img src="https://content-kids.com/wp-content/uploads/2018/12/iconfinder_facebook_circle_color_107175-1.png" alt="">
                     <h3>Facebook</h3>
                 </div>
             </div>
