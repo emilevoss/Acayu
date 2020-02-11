@@ -231,28 +231,30 @@
                 <form class="form-container">
                     <div class="form-block">
                         <label class="form-label" for="">First Name (required)</label>
-                        <input class="form-input" type="text" placeholder="e.g Name" required>
+                        <input class="form-input" v-model="form.Name" type="text" placeholder="e.g Name" required>
                     </div>
                     <div class="form-block">
                         <label class="form-label" for="">Last Name (required)</label>
-                        <input class="form-input" type="text" placeholder="e.g Surname" required>
+                        <input class="form-input" v-model="form.Surname" type="text" placeholder="e.g Surname" required>
                     </div>
                     <div class="form-block">
                         <label class="form-label" for="">Subject:</label>
-                        <select name="Subject" id="option-select">
-                            <option value="">Lorem ipsum dolor sit.</option>
-                            <option value="">Lorem ipsum dolor sit.</option>
-                            <option value="">Lorem ipsum dolor sit.</option>
-                            <option value="">Lorem ipsum dolor sit.</option>
+                        <select name="Subject" v-model="form.Subject" id="option-select">
+                            <option value="">Workshops</option>
+                            <option value="">Parenting Support</option>
+                            <option value="">School Support</option>
+                            <option value="">Special Needs Support</option>
+                            <option value="">Therapy Sessions</option>
+                            <option value="">Home Visits</option>
                         </select>
                     </div>
                     <div class="form-block">
                         <label class="form-label" for="">Your Email (required)</label>
-                        <input class="form-input" type="email" placeholder="e.g candy@content-kids.com" required>
+                        <input class="form-input" v-model="form.EmailAddress" type="email" placeholder="e.g candy@content-kids.com" required>
                     </div>
                     <div class="form-block-1">
                         <label class="form-label-1" for="">Your Message:</label>
-                        <textarea class="form-input-1" placeholder="Write something..."></textarea>
+                        <textarea class="form-input-1" v-model="form.Message" placeholder="Write something..."></textarea>
                     </div>
                     <div>
                         <input class="contact-btn" type="submit">
@@ -264,7 +266,7 @@
 
             <div class="contact-wrap">
                 <div class="contact-block">
-                    <img src="https://content-kids.com/wp-content/uploads/2018/12/iconfinder_30_3229647.png" alt="">
+                    <img src="@/assets/smartphoneck.svg" alt="">
                     <h3>0823791701</h3>
                 </div>
                 <div class="contact-block">
@@ -273,7 +275,7 @@
                 </div>
                 <div class="contact-block">
                     <img src="https://content-kids.com/wp-content/uploads/2018/12/iconfinder_facebook_circle_color_107175-1.png" alt="">
-                    <h3>Facebook</h3>
+                    <h3><a href="https://www.facebook.com/Content-kids-580004039112889/" target="_blank">Facebook</a></h3>
                 </div>
             </div>
         </section>
@@ -295,17 +297,30 @@
 
     import { Component, Vue } from 'vue-property-decorator';
 
+    interface userInfo {
+        Name: string
+        Surname: string
+        Subject: string
+        EmailAddress: string
+        Message: string
+
+    }
+
 
     @Component({
 
     })
     export default class App extends Vue {
 
-        addScroll (event:any) {
 
 
-        }
-
+        form:userInfo = {
+            Name: '',
+            Surname: '',
+            Subject: '',
+            EmailAddress: '',
+            Message:'',
+        };
 
         onClick (event:any) {
             this.isOpen = !this.isOpen
@@ -313,9 +328,7 @@
         };
 
         isOpen: boolean = false;
-
         openMenu: boolean = false
-
 
     }
 

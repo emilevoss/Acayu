@@ -30,7 +30,6 @@ p {
     word-spacing: 3px;
     letter-spacing: 1px;
     line-height: 1.6;
-
 }
 
 h1 {
@@ -334,7 +333,7 @@ input {
 
 .contact-wrap {
     display: flex;
-    padding-top: 90px;
+    padding-top: 14%;
     justify-content: space-evenly;
 }
 
@@ -343,9 +342,8 @@ input {
 }
 
 #option-select {
-    width: 300px;
+    width: 200px;
     font-family: 'Comfortaa', 'sans-serif';
-    padding: 2px 0 0 4px;
 }
 
 .contact-btn {
@@ -374,4 +372,8 @@ input {
     margin: 0 auto;
 }
 
+.contact-block a {
+    text-decoration: none;
+    color: #383838;
+}
 
