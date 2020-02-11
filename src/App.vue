@@ -264,6 +264,7 @@
 
             <div class="contact-wrap">
                 <div class="contact-cell">
+                    <img src="https://content-kids.com/wp-content/uploads/2018/12/iconfinder_30_3229647.png" alt="">
                     <h3>0823791701</h3>
                 </div>
                 <div class="contact-email">
