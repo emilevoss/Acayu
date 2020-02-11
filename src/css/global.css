@@ -334,15 +334,44 @@ input {
 
 .contact-wrap {
     display: flex;
-    justify-content: space-between;
+    padding-top: 90px;
+    justify-content: space-evenly;
+}
+
+.contact-wrap img {
+    text-align: center;
 }
 
 #option-select {
     width: 300px;
     font-family: 'Comfortaa', 'sans-serif';
-    padding: 2px 0  4px;
+    padding: 2px 0 0 4px;
 }
 
 .contact-btn {
+    background-color: #ffffff;
+    padding: 10px;
+    font-size: 110%;
+    color: #383838;
+    border: 2px solid #02a81d;
+    transition: all 0.4s;
+    border-radius: 7px;
 
 }
+
+.contact-btn:hover {
+    background-color: #02a81d;
+    color: #ffffff;
+}
+
+.contact-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.contact-block img {
+    margin: 0 auto;
+}
+
+

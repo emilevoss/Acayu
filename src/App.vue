@@ -231,11 +231,11 @@
                 <form class="form-container">
                     <div class="form-block">
                         <label class="form-label" for="">First Name (required)</label>
-                        <input class="form-input" type="text" placeholder="e.g Name">
+                        <input class="form-input" type="text" placeholder="e.g Name" required>
                     </div>
                     <div class="form-block">
                         <label class="form-label" for="">Last Name (required)</label>
-                        <input class="form-input" type="text" placeholder="e.g Surname">
+                        <input class="form-input" type="text" placeholder="e.g Surname" required>
                     </div>
                     <div class="form-block">
                         <label class="form-label" for="">Subject:</label>
@@ -248,14 +248,14 @@
                     </div>
                     <div class="form-block">
                         <label class="form-label" for="">Your Email (required)</label>
-                        <input class="form-input" type="email" placeholder="e.g candy@content-kids.com">
+                        <input class="form-input" type="email" placeholder="e.g candy@content-kids.com" required>
                     </div>
                     <div class="form-block-1">
                         <label class="form-label-1" for="">Your Message:</label>
                         <textarea class="form-input-1" placeholder="Write something..."></textarea>
                     </div>
-                    <div class="contact-btn">
-                        <input type="submit">
+                    <div>
+                        <input class="contact-btn" type="submit">
                     </div>
                 </form>
             </div>
@@ -263,15 +263,15 @@
 
 
             <div class="contact-wrap">
-                <div class="contact-cell">
+                <div class="contact-block">
                     <img src="https://content-kids.com/wp-content/uploads/2018/12/iconfinder_30_3229647.png" alt="">
                     <h3>0823791701</h3>
                 </div>
-                <div class="contact-email">
+                <div class="contact-block">
                     <img src="https://content-kids.com/wp-content/uploads/2018/12/iconfinder_mail-24_103176.png" alt="">
                     <h3>candy@content-kids.com</h3>
                 </div>
-                <div class="contact-fb">
+                <div class="contact-block">
                     <img src="https://content-kids.com/wp-content/uploads/2018/12/iconfinder_facebook_circle_color_107175-1.png" alt="">
                     <h3>Facebook</h3>
                 </div>
