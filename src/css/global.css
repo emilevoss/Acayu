@@ -370,6 +370,7 @@ input {
 }
 .contact-block img {
     margin: 0 auto;
+    width: 10%;
 }
 
 .contact-block a {
