@@ -89,11 +89,13 @@ section {
 .header-section {
     display: flex;
     justify-content: space-between;
-    background-color: rgba(48, 48, 48, 0.63);
     position: fixed;
     width: 100%;
     z-index: 9999;
 }
+
+.header-section.vis { background-color: rgba(48, 48, 48, 0.12); }
+
 .header-logo {
     padding: 10px;
 }

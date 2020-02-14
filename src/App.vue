@@ -3,8 +3,8 @@
 
 <!----- Header Section START ----->
 
-<div v-observe-visibility="visibilityChanged" class="header-wrap">
-    <div class="header-section">
+<div class="header-wrap">
+    <div class="header-section" :class="{vis:backgroundShow}">
         <div class="header-logo">
             <a title="Content-Kids" href="https://content-kids.com/">
                 <img src="@/assets/SmallLogo.png" class="header-img">
@@ -181,7 +181,7 @@
 <!----- Rates & Bookings Section START ----->
 
 
-       <section class="clamp-1280 workshop-section" id="rates">
+       <section class="clamp-1280 workshop-section" id="rates" v-observe-visibility="{callback:showMenuBar,}">
             <h1>Rates & Bookings</h1>
             <div class="parent-container-3">
                 <div class="child-of-1-3">
@@ -295,9 +295,9 @@
 <script lang="ts">
 
     import { Component, Vue } from 'vue-property-decorator';
-    import { ObserveVisibility } from 'vue-observe-visibility'
+    import { ObserveVisibility } from 'vue-observe-visibility';
 
-    Vue.directive('observe-visibility', ObserveVisibility)
+    Vue.directive('observe-visibility', ObserveVisibility);
 
 
 
@@ -311,10 +311,15 @@
     }
 
 
+
+
+
     @Component({
 
     })
     export default class App extends Vue {
+
+        backgroundShow: boolean=false;
 
 
 
@@ -333,6 +338,14 @@
 
         isOpen: boolean = false;
         openMenu: boolean = false
+
+        showMenuBar(isVisible:boolean, entry:any) {
+            if (isVisible) {
+                this.backgroundShow = true
+            }
+        };
+
+
 
 
     }
