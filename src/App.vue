@@ -296,6 +296,9 @@
 <script lang="ts">
 
     import { Component, Vue } from 'vue-property-decorator';
+    import { ObserveVisibility } from 'vue-observe-visibility'
+
+    Vue.directive('observe-visibility', ObserveVisibility)
 
 
     interface userInfo {
@@ -305,6 +308,7 @@
         EmailAddress: string
         Message: string
     }
+
 
     @Component({
 
