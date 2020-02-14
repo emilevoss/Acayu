@@ -3,7 +3,7 @@
 
 <!----- Header Section START ----->
 
-<div class="header-wrap">
+<div v-observe-visibility="visibilityChanged" class="header-wrap">
     <div class="header-section">
         <div class="header-logo">
             <a title="Content-Kids" href="https://content-kids.com/">
@@ -22,7 +22,6 @@
         </div>
     </div>
 </div>
-
         <div @click="onClick" class="nav-list-block" :class="{open: openMenu}">
                             <ul class="nav-list">
                                 <li class="nav-item">
@@ -301,6 +300,8 @@
     Vue.directive('observe-visibility', ObserveVisibility)
 
 
+
+
     interface userInfo {
         Name: string
         Surname: string
@@ -332,6 +333,7 @@
 
         isOpen: boolean = false;
         openMenu: boolean = false
+
 
     }
 
