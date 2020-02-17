@@ -295,9 +295,7 @@
 <script lang="ts">
 
     import { Component, Vue } from 'vue-property-decorator';
-    import { ObserveVisibility } from 'vue-observe-visibility';
 
-    Vue.directive('observe-visibility', ObserveVisibility);
 
 
 
@@ -319,7 +317,6 @@
     })
     export default class App extends Vue {
 
-        backgroundShow: boolean=false;
 
 
 
@@ -335,15 +332,9 @@
             this.isOpen = !this.isOpen
             this.openMenu = !this.openMenu
         };
-
         isOpen: boolean = false;
         openMenu: boolean = false
 
-        showMenuBar(isVisible:boolean, entry:any) {
-            if (isVisible) {
-                this.backgroundShow = true
-            }
-        };
 
 
 
