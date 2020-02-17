@@ -295,6 +295,7 @@
 <script lang="ts">
 
     import { Component, Vue } from 'vue-property-decorator';
+    import { vuescroll } from 'vue-scroll';
 
 
 
@@ -317,9 +318,6 @@
     })
     export default class App extends Vue {
 
-
-
-
         form:userInfo = {
             Name: '',
             Surname: '',
@@ -333,11 +331,7 @@
             this.openMenu = !this.openMenu
         };
         isOpen: boolean = false;
-        openMenu: boolean = false
-
-
-
-
+        openMenu: boolean = false;
 
     }
 
