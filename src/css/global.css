@@ -94,6 +94,10 @@ section {
     z-index: 9999;
 }
 
+.header-sticky {
+    color: #313131;
+}
+
 .header-section.vis { background-color: rgba(48, 48, 48, 0.12); }
 
 .header-logo {

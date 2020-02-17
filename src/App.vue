@@ -4,7 +4,7 @@
 <!----- Header Section START ----->
 
 <div class="header-wrap">
-    <div class="header-section" :class="{vis:backgroundShow}">
+    <div class="header-section">
         <div class="header-logo">
             <a title="Content-Kids" href="https://content-kids.com/">
                 <img src="@/assets/SmallLogo.png" class="header-img">
@@ -181,7 +181,7 @@
 <!----- Rates & Bookings Section START ----->
 
 
-       <section class="clamp-1280 workshop-section" id="rates" v-observe-visibility="{callback:showMenuBar,}">
+       <section class="clamp-1280 workshop-section" id="rates">
             <h1>Rates & Bookings</h1>
             <div class="parent-container-3">
                 <div class="child-of-1-3">
@@ -297,9 +297,6 @@
     import { Component, Vue } from 'vue-property-decorator';
 
 
-
-
-
     interface userInfo {
         Name: string
         Surname: string
@@ -308,14 +305,12 @@
         Message: string
     }
 
-
-
-
-
     @Component({
 
     })
     export default class App extends Vue {
+
+
 
         form:userInfo = {
             Name: '',
