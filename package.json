@@ -14,6 +14,7 @@
     "vue-eva-icons": "^1.1.1",
     "vue-property-decorator": "^8.3.0",
     "vue-router": "^3.1.3",
+    "vue-scroll": "^2.1.13"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.0",

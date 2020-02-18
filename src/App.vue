@@ -297,6 +297,7 @@
     import { Component, Vue } from 'vue-property-decorator';
 
 
+
     interface userInfo {
         Name: string
         Surname: string
