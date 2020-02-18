@@ -1,15 +1,18 @@
 /* Scroll to sections from menu */
 
-const sectionOne = document.querySelector('.header-section');
+const headersection = document.querySelector('.header-section');
+const sectionOne = document.querySelector('.parent-container-2');
 
-const options = {};
+const sectionOneOptions = {};
 
-const observer = new IntersectionObserver(function (entries, observer) {
+const sectionOneObserver = new IntersectionObserver(function (entries, sectionOneObserver) {
 
     entries.forEach(entry => {
-        console.log(entry);
+        if (!entry.isIntersecting){
+
+        }
     });
 
-}, options);
+}, sectionOneOptions);
 
-observer.observe(sectionOne);
+sectionOneObserver.observe(sectionOne)

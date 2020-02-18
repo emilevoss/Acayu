@@ -92,11 +92,16 @@ section {
     position: fixed;
     width: 100%;
     z-index: 9999;
+    transition: all 0.5s;
 }
 
 .header-section.scroll {
-    background-color: rgba(0, 0, 0, 0.33);
+    background-color: rgba(0, 0, 0, 0.63);
 }
+
+/*.scroll {*/
+/*    background-color: rgba(0, 0, 0, 0.63);*/
+/*}*/
 
 .header-sticky {
     color: #313131;
