@@ -264,7 +264,7 @@
             <!----- Form Section ----->
 
             <div class="form clamp-1280">
-                <form class="form-container">
+                <form @submit.prevent="handleSubmit" class="form-container" action="" method="post">
                     <div class="form-block">
                         <label class="form-label">First Name (required)</label>
                         <input class="form-input" v-model="form.Name" type="text" placeholder="e.g Name" required>
@@ -276,12 +276,12 @@
                     <div class="form-block">
                         <label class="form-label">Subject:</label>
                         <select name="Subject" v-model="form.Subject" id="option-select">
-                            <option value="">Workshops</option>
-                            <option value="">Parenting Support</option>
-                            <option value="">School Support</option>
-                            <option value="">Special Needs Support</option>
-                            <option value="">Therapy Sessions</option>
-                            <option value="">Home Visits</option>
+                            <option value="Workshops">Workshops</option>
+                            <option value="Parenting Support">Parenting Support</option>
+                            <option value="School Support">School Support</option>
+                            <option value="Special Needs Support">Special Needs Support</option>
+                            <option value="Therapy Sessions">Therapy Sessions</option>
+                            <option value="Home Visits">Home Visits</option>
                         </select>
                     </div>
                     <div class="form-block">
@@ -295,7 +295,7 @@
                                   placeholder="Write something..."></textarea>
                     </div>
                     <div>
-                        <input class="contact-btn" type="submit">
+                        <button class="contact-btn" type="submit">Submit</button>
                     </div>
                 </form>
             </div>
@@ -386,6 +386,11 @@
         isOpen: boolean = false;
         openMenu: boolean = false;
         bgShow: boolean = false;
+
+        handleSubmit () {
+            console.log(this.form);
+
+        }
 
     }
 
