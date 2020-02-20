@@ -264,35 +264,33 @@
             <!----- Form Section ----->
 
             <div class="form clamp-1280">
-                <form @submit.prevent="handleSubmit" class="form-container" action="" method="post">
+                <form @submit="handleSubmit" method="post" action="https://content-kids/ckform.php" class="form-container">
                     <div class="form-block">
                         <label class="form-label">First Name (required)</label>
-                        <input class="form-input" v-model="form.Name" type="text" placeholder="e.g Name" required>
+                        <input class="form-input" v-model="form.Name" type="text" placeholder="e.g Name" name="firstName" required>
                     </div>
                     <div class="form-block">
                         <label class="form-label">Last Name (required)</label>
-                        <input class="form-input" v-model="form.Surname" type="text" placeholder="e.g Surname" required>
+                        <input class="form-input" v-model="form.Surname" type="text" placeholder="e.g Surname" name="lastName" required>
                     </div>
                     <div class="form-block">
                         <label class="form-label">Subject:</label>
-                        <select name="Subject" v-model="form.Subject" id="option-select">
-                            <option value="Workshops">Workshops</option>
-                            <option value="Parenting Support">Parenting Support</option>
-                            <option value="School Support">School Support</option>
-                            <option value="Special Needs Support">Special Needs Support</option>
-                            <option value="Therapy Sessions">Therapy Sessions</option>
-                            <option value="Home Visits">Home Visits</option>
+                        <select name="subject" v-model="form.Subject" id="option-select">
+                            <option name="subject" value="Workshops">Workshops</option>
+                            <option name="subject" value="Parenting Support">Parenting Support</option>
+                            <option name="subject" value="School Support">School Support</option>
+                            <option name="subject" value="Special Needs Support">Special Needs Support</option>
+                            <option name="subject" value="Therapy Sessions">Therapy Sessions</option>
+                            <option name="subject" value="Home Visits">Home Visits</option>
                         </select>
                     </div>
                     <div class="form-block">
                         <label class="form-label">Your Email (required)</label>
-                        <input class="form-input" v-model="form.EmailAddress" type="email"
-                               placeholder="e.g candy@content-kids.com" required>
+                        <input class="form-input" v-model="form.EmailAddress" type="email" name="emailAddress" placeholder="e.g candy@content-kids.com" required>
                     </div>
                     <div class="form-block-1">
                         <label class="form-label-1">Your Message:</label>
-                        <textarea class="form-input-1" v-model="form.Message"
-                                  placeholder="Write something..."></textarea>
+                        <textarea class="form-input-1" v-model="form.Message" name="message" placeholder="Write something..."></textarea>
                     </div>
                     <div>
                         <button class="contact-btn" type="submit">Submit</button>
