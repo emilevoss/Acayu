@@ -7,7 +7,7 @@
             <div class="header-section" :class="{scroll: bgShow}">
                 <div class="header-logo">
                     <a title="Content-Kids" href="https://content-kids.com/">
-                        <img src="@/assets/SmallLogo.png" class="header-img">
+                        <img src="@/assets/SmallLogo.png" class="header-img" alt="">
                     </a>
                 </div>
                 <div class="header-menu">
