@@ -264,7 +264,7 @@
             <!----- Form Section ----->
 
             <div class="form clamp-1280">
-                <form @submit="handleSubmit" method="post" action="https://content-kids/ckform.php" class="form-container">
+                <form method="post" action="https://content-kids/ckform.php" class="form-container">
                     <div class="form-block">
                         <label class="form-label">First Name (required)</label>
                         <input class="form-input" v-model="form.Name" type="text" placeholder="e.g Name" name="firstName" required>
@@ -274,15 +274,8 @@
                         <input class="form-input" v-model="form.Surname" type="text" placeholder="e.g Surname" name="lastName" required>
                     </div>
                     <div class="form-block">
-                        <label class="form-label">Subject:</label>
-                        <select name="subject" v-model="form.Subject" id="option-select">
-                            <option name="subject" value="Workshops">Workshops</option>
-                            <option name="subject" value="Parenting Support">Parenting Support</option>
-                            <option name="subject" value="School Support">School Support</option>
-                            <option name="subject" value="Special Needs Support">Special Needs Support</option>
-                            <option name="subject" value="Therapy Sessions">Therapy Sessions</option>
-                            <option name="subject" value="Home Visits">Home Visits</option>
-                        </select>
+                        <label class="form-label">Subject</label>
+                        <input class="form-input-subject" v-model="form.Subject" type="text" name="subject">
                     </div>
                     <div class="form-block">
                         <label class="form-label">Your Email (required)</label>
@@ -293,7 +286,7 @@
                         <textarea class="form-input-1" v-model="form.Message" name="message" placeholder="Write something..."></textarea>
                     </div>
                     <div>
-                        <button class="contact-btn" type="submit">Submit</button>
+                        <button class="contact-btn" name="submit" type="submit">Submit</button>
                     </div>
                 </form>
             </div>
@@ -332,6 +325,8 @@
 <script lang="ts">
 
     import {Component, Vue} from 'vue-property-decorator';
+    import VueAxios from "vue-axios";
+
 
 
     interface userInfo {
@@ -363,6 +358,24 @@
 
         };
 
+        submitForm () {
+
+            e.preventDefault();
+                let currentObj = this;
+                this.axios.post('https://content-kids.com/ckform.php', {
+                    firstName: this.form.Name,
+                    lastName: this.form.Surname,
+                    _subject: this.form.Subject,
+                    emailAddress: this.form.EmailAddress,
+                    _message: this.form.Message,
+                })
+                    .then(function (response) {
+                        console.log(response);
+                    })
+                    .catch(function (error) {
+                        console.log(error);
+                    });
+        }
 
         form: userInfo = {
             Name: '',
@@ -385,10 +398,6 @@
         openMenu: boolean = false;
         bgShow: boolean = false;
 
-        handleSubmit () {
-            console.log(this.form);
-
-        }
 
     }
 

@@ -334,6 +334,11 @@ input {
     width: 58%;
     padding: 5px 0 5px 10px
 }
+.form-input-subject {
+    width: 100%;
+    padding: 5px 0 5px 10px;
+    border: 1px solid #e2e2e2;
+}
 
 .form-input-1 {
     border: 1px solid #e2e2e2;
