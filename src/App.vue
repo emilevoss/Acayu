@@ -325,8 +325,7 @@
 <script lang="ts">
 
     import {Component, Vue} from 'vue-property-decorator';
-    import VueAxios from "vue-axios";
-
+    import axios from 'axios'
 
 
     interface userInfo {
@@ -361,17 +360,17 @@
         submitForm (e:Event) {
             e.preventDefault();
                 let currentObj = this;
-                this.axios.post('https://content-kids.com/ckform.php', {
+                axios.post('https://content-kids.com/ckform.php', {
                     firstName: this.form.Name,
                     lastName: this.form.Surname,
                     _subject: this.form.Subject,
                     emailAddress: this.form.EmailAddress,
                     _message: this.form.Message,
                 })
-                    .then((response) => {
-                        console.log(response);
+                    .then((response: any) => {
+                        console.log(response.data);
                     })
-                    .catch((error) => {
+                    .catch((error: any) => {
                         console.log(error);
                     });
         }
