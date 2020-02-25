@@ -264,7 +264,7 @@
             <!----- Form Section ----->
 
             <div class="form clamp-1280">
-                <form method="post" action="https://content-kids/ckform.php" class="form-container">
+                <form @submit="submitForm" method="post" action="https://content-kids/ckform.php" class="form-container">
                     <div class="form-block">
                         <label class="form-label">First Name (required)</label>
                         <input class="form-input" v-model="form.Name" type="text" placeholder="e.g Name" name="firstName" required>
@@ -358,8 +358,7 @@
 
         };
 
-        submitForm () {
-
+        submitForm (e:Event) {
             e.preventDefault();
                 let currentObj = this;
                 this.axios.post('https://content-kids.com/ckform.php', {
@@ -369,10 +368,10 @@
                     emailAddress: this.form.EmailAddress,
                     _message: this.form.Message,
                 })
-                    .then(function (response) {
+                    .then((response) => {
                         console.log(response);
                     })
-                    .catch(function (error) {
+                    .catch((error) => {
                         console.log(error);
                     });
         }
