@@ -264,7 +264,7 @@
             <!----- Form Section ----->
 
             <div class="form clamp-1280">
-                <form @submit="submitForm" method="post" action="https://content-kids/ckform.php" class="form-container">
+                <form v-if="showThanks" @submit="submitForm" method="post" action="https://content-kids/ckform.php" class="form-container">
                     <div class="form-block">
                         <label class="form-label">First Name (required)</label>
                         <input class="form-input" v-model="form.Name" type="text" placeholder="e.g Name" name="firstName" required>
@@ -289,6 +289,12 @@
                         <button class="contact-btn" name="submit" type="submit">Submit</button>
                     </div>
                 </form>
+               </div>
+            <div v-if="!showThanks" class="submit-thanks">
+                <div class="thankyou-message">
+                    <img src="@/assets/SmallLogo.jpg" alt="Thank you for submitting the form">
+                </div>
+                <h2 class="btn-submit-thanks">Thank you for contacting Content-Kids. We will get back to you as soon as we can.</h2>
             </div>
             <!---------------------------------------------------------------------------------->
 
@@ -368,10 +374,12 @@
                     _message: this.form.Message,
                 })
                     .then((response: any) => {
+                        this.showThanks = true;
                         console.log(response.data);
                     })
                     .catch((error: any) => {
                         console.log(error);
+                        this.showThanks = false;
                     });
         }
 
@@ -395,6 +403,8 @@
         isOpen: boolean = false;
         openMenu: boolean = false;
         bgShow: boolean = false;
+
+        showThanks: boolean = false;
 
 
     }
