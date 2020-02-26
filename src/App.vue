@@ -264,7 +264,7 @@
             <!----- Form Section ----->
 
             <div class="form clamp-1280">
-                <form v-if="showThanks" @submit="submitForm" method="post" action="https://content-kids/ckform.php" class="form-container">
+                <form v-if="!showThanks" @submit="submitForm" method="post" action="https://content-kids/ckform.php" class="form-container">
                     <div class="form-block">
                         <label class="form-label">First Name (required)</label>
                         <input class="form-input" v-model="form.Name" type="text" placeholder="e.g Name" name="firstName" required>
@@ -290,7 +290,7 @@
                     </div>
                 </form>
                </div>
-            <div v-if="!showThanks" class="submit-thanks">
+            <div v-if="showThanks" class="submit-thanks">
                 <div class="thankyou-message">
                     <img src="@/assets/check.svg" alt="Thank you for submitting the form" class="thankyou-img">
                 </div>
