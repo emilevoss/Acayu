@@ -292,7 +292,7 @@
                </div>
             <div v-if="!showThanks" class="submit-thanks">
                 <div class="thankyou-message">
-                    <img src="@/assets/SmallLogo.jpg" alt="Thank you for submitting the form">
+                    <img src="@/assets/check.svg" alt="Thank you for submitting the form">
                 </div>
                 <h2 class="btn-submit-thanks">Thank you for contacting Content-Kids. We will get back to you as soon as we can.</h2>
             </div>
