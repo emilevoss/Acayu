@@ -397,10 +397,17 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 80px;
 }
 .contact-img { width: 17%; }
 
 .btn-submit-thanks {
+    text-decoration: underline #313131;
+
+}
+
+.thankyou-img {
+    width: 100%;
 }
 
 
