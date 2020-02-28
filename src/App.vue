@@ -331,7 +331,9 @@
 <script lang="ts">
 
     import {Component, Vue} from 'vue-property-decorator';
-    import axios from 'axios'
+    import axios from 'axios';
+    import VueGlide from 'vue-glide-js';
+
 
 
     interface userInfo {
