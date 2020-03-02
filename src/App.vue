@@ -350,7 +350,6 @@
 
     import {Component, Vue} from 'vue-property-decorator';
     import axios from 'axios';
-    import { Glide, GlideSlide } from 'vue-glide-js';
 
 
 
