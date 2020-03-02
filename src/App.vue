@@ -218,6 +218,24 @@
         </section>
 
         <!---------------------------------------------------------------------------------->
+        <!----- Slides Section START ----->
+
+        <template>
+            <div id="app">
+                <vue-glide>
+                    <vue-glide-slide
+                            v-for="i in 10"
+                            :key="i">
+                        Slide {{ i }}
+                    </vue-glide-slide>
+                </vue-glide>
+            </div>
+        </template>
+
+
+
+
+        <!---------------------------------------------------------------------------------->
         <!----- Rates & Bookings Section START ----->
 
 
@@ -332,6 +350,8 @@
 
     import {Component, Vue} from 'vue-property-decorator';
     import axios from 'axios';
+    import { Glide, GlideSlide } from 'vue-glide-js';
+
 
 
     interface userInfo {
@@ -405,6 +425,8 @@
         bgShow: boolean = false;
 
         showThanks: boolean = false;
+
+
 
 
     }
