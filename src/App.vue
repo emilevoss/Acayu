@@ -252,28 +252,14 @@
 
         </section>
 
-        <div class="glide">
-            <div class="glide__track" data-glide-el="track">
-                <ul class="glide__slides">
-                    <li class="glide__slide">0</li>
-                    <li class="glide__slide">1</li>
-                    <li class="glide__slide">2</li>
-                </ul>
-            </div>
-        </div>
-
-
-
-
         <template>
-            <div id="app">
-                <vue-glide>
-                    <vue-glide-slide></vue-glide-slide>
-                    <template slot="control">
-                        <button data-glide-dir="<">prev</button>
-                        <button data-glide-dir=">">next</button>
-                    </template>
-                </vue-glide>
+            <div>
+                <VueSlickCarousel :arrows="true" :dots="true">
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                </VueSlickCarousel>
             </div>
         </template>
 
@@ -396,6 +382,8 @@
 
     import {Component, Vue} from 'vue-property-decorator';
     import axios from 'axios';
+    import 'vue-slick-carousel/dist/slick.css'
+    import 'vue-slick-carousel/dist/slick-theme.css'
 
 
 
