@@ -220,18 +220,52 @@
         <!---------------------------------------------------------------------------------->
         <!----- Slides Section START ----->
 
+        <section class="slide-section">
+            <div class="slide-section-container">
+                <div class="slide-section-top">
+                    <img src="@/assets/SmallLogo.jpg" alt="">
+                </div>
+                <div class="slide-section-top">
+                    <img src="@/assets/SmallLogo.jpg" alt="">
+                </div>
+                <div class="slide-section-top">
+                    <img src="@/assets/SmallLogo.jpg" alt="">
+                </div>
+                <div class="slide-section-top">
+                    <img src="@/assets/SmallLogo.jpg" alt="">
+                </div>
+            </div>
+            <div class="slide-section-container">
+                <div class="slide-section-top">
+                    <img src="@/assets/SmallLogo.jpg" alt="">
+                </div>
+                <div class="slide-section-top">
+                    <img src="@/assets/SmallLogo.jpg" alt="">
+                </div>
+                <div class="slide-section-top">
+                    <img src="@/assets/SmallLogo.jpg" alt="">
+                </div>
+                <div class="slide-section-top">
+                    <img src="@/assets/SmallLogo.jpg" alt="">
+                </div>
+            </div>
+
+        </section>
+
+
+
+
         <template>
             <div id="app">
                 <vue-glide>
-                    <vue-glide-slide
-                            v-for="i in 10"
-                            :key="i">
-                        Slide {{ i }}
-                    </vue-glide-slide>
+                    <vue-glide-slide></vue-glide-slide>
+                    <template slot="control">
+                        <button data-glide-dir="<">prev</button>
+                        <button data-glide-dir=">">next</button>
+                    </template>
                 </vue-glide>
             </div>
         </template>
-
 
 
 
@@ -343,6 +377,8 @@
 <style lang="less">
     @import "css/global.css";
     @import "css/queries.css";
+    @import 'vue-glide-js/dist/vue-glide.css';
+
 
 
 </style>
@@ -350,6 +386,7 @@
 
     import {Component, Vue} from 'vue-property-decorator';
     import axios from 'axios';
+
 
 
 
