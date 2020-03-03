@@ -251,16 +251,25 @@
             </div>
 
         </section>
-
         <template>
-            <div>
-                <VueSlickCarousel :arrows="true" :dots="true">
-                    <div>1</div>
-                    <div>2</div>
-                    <div>3</div>
-                    <div>4</div>
-                </VueSlickCarousel>
+            <VueSlickCarousel v-bind="settings" ref="carousel" class="clamp-1280">
+                <div>
+                    <img src="@/assets/SmallLogo.jpg" alt="">
+                </div><div>
+                    <img src="@/assets/SmallLogo.jpg" alt="">
+                </div><div>
+                    <img src="@/assets/SmallLogo.jpg" alt="">
+                </div>
+                <div>
+                    <img src="@/assets/SmallLogo.jpg" alt="">
+                </div><div>
+                <img src="@/assets/SmallLogo.jpg" alt="">
+            </div><div>
+                <img src="@/assets/SmallLogo.jpg" alt="">
+
             </div>
+
+            </VueSlickCarousel>
         </template>
 
 
@@ -376,17 +385,14 @@
 
 
 
-
 </style>
 <script lang="ts">
 
     import {Component, Vue} from 'vue-property-decorator';
     import axios from 'axios';
-    import 'vue-slick-carousel/dist/slick.css'
-    import 'vue-slick-carousel/dist/slick-theme.css'
-
-
-
+    import VueSlickCarousel from 'vue-slick-carousel';
+    import 'vue-slick-carousel/dist/vue-slick-carousel.css';
+    import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css';
 
 
 
@@ -398,8 +404,22 @@
         Message: string
     }
 
-    @Component({})
+    @Component({components: { VueSlickCarousel }})
     export default class App extends Vue {
+
+        settings = {
+            "dots": true,
+            "dotsClass": "slick-dots custom-dot-class",
+            "edgeFriction": 0.35,
+            "infinite": true,
+            "speed": 500,
+            "slidesToShow": 2,
+            "slidesToScroll": 1,
+            "arrows": true,
+        };
+
+
+
 
         mounted() {
             const sectionOne = document.querySelector(".scroll-display")!;
@@ -461,7 +481,6 @@
         bgShow: boolean = false;
 
         showThanks: boolean = false;
-
 
 
 

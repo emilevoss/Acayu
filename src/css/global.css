@@ -443,4 +443,10 @@ input {
 }
 
 
+.slick-prev:before, .slick-next:before {
+    color: #313131;
+}
 
+.slick-slide img[data-v-e4caeaf8] {
+    margin: 0 auto;
+}
