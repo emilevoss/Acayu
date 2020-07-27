@@ -38,11 +38,11 @@
                     <a href="#services" class="nav-link">Services</a>
                 </li>
             </ul>
-            <ul class="nav-list">
-                <li class="nav-item">
-                    <a href="#workshops" class="nav-link">Workshops</a>
-                </li>
-            </ul>
+<!--            <ul class="nav-list">-->
+<!--                <li class="nav-item">-->
+<!--                    <a href="#workshops" class="nav-link">Workshops</a>-->
+<!--                </li>-->
+<!--            </ul>-->
             <ul class="nav-list">
                 <li class="nav-item">
                     <a href="#rates" class="nav-link">Rates & Bookings</a>
@@ -65,15 +65,9 @@
                     <img src="@/assets/SmallLogo.jpg" alt="About IMG goes here">
                 </div>
                 <div class="child-of-2-2">
-                    <h3>My name is Candice Voss, I have a psychology background and have worked as an au pair,
-                        facilitator at mainstream schools and as a therapist at a specialised therapy intervention
-                        centre for children with social, emotional, communication challenges and behavioural
-                        difficulties. For the past several years I worked at an NPO focusing on Autism, family support,
-                        parent and professional workshops, behaviour management, school support and training as well as
-                        support at Tygerberg Hospital and Red Cross Children’s Hospital. Content-Kids is my private
-                        practice where I focus on parenting support, inclusive education and teacher support as well as
-                        special needs support with a specific focus on autism, behavior management and alternative
-                        communication systems.</h3>
+                    <h3>My name is Candice Voss and I am a Parent Support and Child Behaviour Consultant.
+                        Content-Kids is my private practice that is based in Cape Town, South Africa. I have had several years experience in working with children with challenging behaviours within the home as well as educational settings and offer parents as well as teachers support to understand children’s needs and behaviours. I specialise in working with children who are on the autism spectrum.
+                    </h3>
                 </div>
             </div>
 
@@ -120,69 +114,74 @@
                     <div class="servicesImg">
                         <img src="@/assets/SmallLogo.jpg" class="services-image" alt="">
                     </div>
-                    <h3>Parenting Support</h3>
-                    <p>I am passionate about parenting and am a mother of 2 amazing children. I have focused on
-                        behaviour management for many years, if you can get your child’s behavioural challenges under
-                        control parenting becomes a lot more enjoyable.<br><br>
-                        This can be achieved through understanding your child, positive parenting, putting up boundaries
-                        as a parent and creating routines in the home that will help your child feel secure and able to
-                        grow in independence. Parenting is hard work but can be a lot of fun too.<br><br>
-                        What to expect as a first time parent<br>
-                        Baby sign language<br>
-                        Playing with your child<br>
-                        Toilet training<br>
-                        Specific childhood difficulties (anxiety, ADHD, emotional regulation, helping your child to
-                        listen, house rules, childrens chores)<br><br>
-                        Positive parenting<br><br>
-                        Behavior management</p>
+                    <h3>Autism Support</h3>
+                    <p>I have worked with autistic individuals and autism organisations for over a decade.
+                        I offer the following support services to parents, teachers and professionals:<br><br></p>
+                    <div class="service-list">
+                        <ul class="service-list-list">
+                            <li>Home visits</li>
+                            <li>Understanding autism </li>
+                            <li>Autism and the sensory system</li>
+                            <li>Positive behaviour management</li>
+                            <li>Autism and toilet training</li>
+                            <li>Communication strategies for the non speaking autistic child</li>
+                            <li>Social stories</li>
+                            <li>Social skills</li>
+                            <li>Classroom behaviour management</li>
+                            <li>Inclusive classroom support</li>
+                            <li>IEP/ISP support or development</li>
+                            <li>Class observations</li>
+                            <li>Curriculum development for early learners</li>
+                            <li>Facilitation training</li>
+                            <li>Autism workshops</li>
+                        </ul>
+                    </div>
+
                 </div>
                 <div class="child-of-1-3">
                     <div class="servicesImg">
                         <img src="@/assets/SmallLogo.jpg" class="services-image" alt="">
                     </div>
-                    <h3>School Support</h3>
-                    <p>I have a special interest in inclusive education and feel strongly that all children have the
-                        right to an education. Children all learn differently and at different paces and there are many
-                        strategies that can be implemented to embrace this.
-                        This means equipping and supporting schools, teachers, teacher assistants and facilitators to
-                        use inclusive teaching tools and methods. <br><br>It is hard to contain my excitement for
-                        inclusive education and what teachers could be doing in their classes. As well as educate and
-                        assist teachers with their IEP needs.
-                        Classroom strategies for the struggling child
-                        Inclusive strategies
-                        IEP assistance
-                        Facilitation placement and training</p>
+                    <h3>Teacher Support</h3>
+                    <p>I offer teachers support with children who are having behavioural,, communication, sensory and social skill challenges with special focus being on supporting teachers with autistic learners.
+                        I offer the following support services to teachers and schools:<br><br></p>
+                    <div class="service-list">
+                        <ul class="service-list-list">
+                            <li>Classroom behaviour management</li>
+                            <li>Inclusive classroom support</li>
+                            <li>Emotional regulation in the classroom</li>
+                            <li>IEP/ISP support or development</li>
+                            <li>Class observations</li>
+                            <li>Curriculum development for early learners</li>
+                            <li>Curriculum adaptations</li>
+                            <li>Facilitation training</li>
+                            <li>Autism workshops</li>
+                            <li>Workshops for teachers</li>
+                            <li>Teacher support meetings</li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="child-of-1-3">
                     <div class="servicesImg">
                         <img src="@/assets/SmallLogo.jpg" class="services-image" alt="">
                     </div>
-                    <h3>Special Needs Support</h3>
-                    <p>I have had international and national experience with Autism as well as Down Syndrome. I have
-                        been privileged enough to have been able to dedicate a few years to truly trying to understand
-                        Autism and Down Syndrome. Parenting is overwhelming, parenting a special needs child means that
-                        you really need so much more support than anyone can comprehend.
-                        There is often a team of people supporting each special needs child, but there is not a support
-                        system for the parents of those children.<br><br> Special needs children often have many
-                        different therapists that they go to, but not many people spend time explaining those therapies
-                        to the parents. I hope to bridge this gap between therapists and parents as well as support
-                        parents in their journey with their special needs children, especially those that have children
-                        with communication barriers.<br><br>
-                        Autism<br>
-                        Down Syndrome<br>
-                        ADHD<br>
-                        Sensory Processing<br>
-                        Alternative communication strategies<br>
-                        Behavior management<br>
-                        Early development<br>
-                        Au pair training and support
-                        School guidance</p>
-                </div>
-                <div class="school-support">
-                    <h2>School Support</h2>
-                    <h3>Teacher support meetings can be arranged to discuss specific students in class, brainstorm
-                        inclusive strategies, behaviour management strategies as well as deepen understanding of
-                        differently-abled learners.</h3>
+                    <h3>Parent Support</h3>
+                    <p>I offer parents support at my practice as well as offer home visits. I focus on practical solutions for parents to implement at home to make life more manageable and enjoyable at home.
+                        I offer the following support services to parents:<br><br></p>
+                    <div class="service-list">
+                        <ul class="service-list-list">
+                            <li>Positive behaviour management</li>
+                            <li>Positive parenting</li>
+                            <li>A space for parents to air their concerns about their child</li>
+                            <li>A space for parents to become consistent with their parenting choices</li>
+                            <li>Discipline and boundaries at home</li>
+                            <li>Baby sign language</li>
+                            <li>Toilet training</li>
+                            <li>Emotional regulation</li>
+                            <li>Tantrum support</li>
+                            <li>School placement guidance</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
@@ -190,87 +189,87 @@
         <!---------------------------------------------------------------------------------->
         <!----- Workshops Section START ----->
 
-        <section class="clamp-1280 workshop-section" id="workshops">
-            <h1>Workshops</h1>
-            <div class="parent-container-3">
-                <div class="child-of-1-3">
-                    <h3>Parent Workshops</h3>
-                    <p>Positive Parenting<br>
-                        Behaviour Management<br>
-                        Toilet Training
-                    </p>
-                </div>
-                <div class="child-of-1-3">
-                    <h3>Teacher Workshops</h3>
-                    <p>Behaviour management in the classroom
-                        Inclusive Strategies for the classroom
-                        What is Autism
-                    </p>
-                </div>
-                <div class="child-of-1-3">
-                    <h3>Student Talks</h3>
-                    <p>What is Autism (Children 3-6 years old) <br><br>
-                        What is Autism (Children 6-14 years old)<br><br>
-                        What is Autism (Teenagers 15-18 years old)
-                    </p>
-                </div>
-            </div>
-        </section>
+<!--        <section class="clamp-1280 workshop-section" id="workshops">-->
+<!--            <h1>Workshops</h1>-->
+<!--            <div class="parent-container-3">-->
+<!--                <div class="child-of-1-3">-->
+<!--                    <h3>Parent Workshops</h3>-->
+<!--                    <p>Positive Parenting<br>-->
+<!--                        Behaviour Management<br>-->
+<!--                        Toilet Training-->
+<!--                    </p>-->
+<!--                </div>-->
+<!--                <div class="child-of-1-3">-->
+<!--                    <h3>Teacher Workshops</h3>-->
+<!--                    <p>Behaviour management in the classroom-->
+<!--                        Inclusive Strategies for the classroom-->
+<!--                        What is Autism-->
+<!--                    </p>-->
+<!--                </div>-->
+<!--                <div class="child-of-1-3">-->
+<!--                    <h3>Student Talks</h3>-->
+<!--                    <p>What is Autism (Children 3-6 years old) <br><br>-->
+<!--                        What is Autism (Children 6-14 years old)<br><br>-->
+<!--                        What is Autism (Teenagers 15-18 years old)-->
+<!--                    </p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
 
         <!---------------------------------------------------------------------------------->
         <!----- Slides Section START ----->
 
-        <section class="slide-section">
-            <div class="slide-section-container">
-                <div class="slide-section-top">
-                    <img src="@/assets/SmallLogo.jpg" alt="">
-                </div>
-                <div class="slide-section-top">
-                    <img src="@/assets/SmallLogo.jpg" alt="">
-                </div>
-                <div class="slide-section-top">
-                    <img src="@/assets/SmallLogo.jpg" alt="">
-                </div>
-                <div class="slide-section-top">
-                    <img src="@/assets/SmallLogo.jpg" alt="">
-                </div>
-            </div>
-            <div class="slide-section-container">
-                <div class="slide-section-top">
-                    <img src="@/assets/SmallLogo.jpg" alt="">
-                </div>
-                <div class="slide-section-top">
-                    <img src="@/assets/SmallLogo.jpg" alt="">
-                </div>
-                <div class="slide-section-top">
-                    <img src="@/assets/SmallLogo.jpg" alt="">
-                </div>
-                <div class="slide-section-top">
-                    <img src="@/assets/SmallLogo.jpg" alt="">
-                </div>
-            </div>
+<!--        <section class="slide-section">-->
+<!--            <div class="slide-section-container">-->
+<!--                <div class="slide-section-top">-->
+<!--                    <img src="@/assets/SmallLogo.jpg" alt="">-->
+<!--                </div>-->
+<!--                <div class="slide-section-top">-->
+<!--                    <img src="@/assets/SmallLogo.jpg" alt="">-->
+<!--                </div>-->
+<!--                <div class="slide-section-top">-->
+<!--                    <img src="@/assets/SmallLogo.jpg" alt="">-->
+<!--                </div>-->
+<!--                <div class="slide-section-top">-->
+<!--                    <img src="@/assets/SmallLogo.jpg" alt="">-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="slide-section-container">-->
+<!--                <div class="slide-section-top">-->
+<!--                    <img src="@/assets/SmallLogo.jpg" alt="">-->
+<!--                </div>-->
+<!--                <div class="slide-section-top">-->
+<!--                    <img src="@/assets/SmallLogo.jpg" alt="">-->
+<!--                </div>-->
+<!--                <div class="slide-section-top">-->
+<!--                    <img src="@/assets/SmallLogo.jpg" alt="">-->
+<!--                </div>-->
+<!--                <div class="slide-section-top">-->
+<!--                    <img src="@/assets/SmallLogo.jpg" alt="">-->
+<!--                </div>-->
+<!--            </div>-->
 
-        </section>
-        <template>
-            <VueSlickCarousel v-bind="settings" ref="carousel" class="clamp-1280">
-                <div>
-                    <img src="@/assets/SmallLogo.jpg" alt="">
-                </div><div>
-                    <img src="@/assets/SmallLogo.jpg" alt="">
-                </div><div>
-                    <img src="@/assets/SmallLogo.jpg" alt="">
-                </div>
-                <div>
-                    <img src="@/assets/SmallLogo.jpg" alt="">
-                </div><div>
-                <img src="@/assets/SmallLogo.jpg" alt="">
-            </div><div>
-                <img src="@/assets/SmallLogo.jpg" alt="">
+<!--        </section>-->
+<!--        <template>-->
+<!--            <VueSlickCarousel v-bind="settings" ref="carousel" class="clamp-1280">-->
+<!--                <div>-->
+<!--                    <img src="@/assets/SmallLogo.jpg" alt="">-->
+<!--                </div><div>-->
+<!--                    <img src="@/assets/SmallLogo.jpg" alt="">-->
+<!--                </div><div>-->
+<!--                    <img src="@/assets/SmallLogo.jpg" alt="">-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    <img src="@/assets/SmallLogo.jpg" alt="">-->
+<!--                </div><div>-->
+<!--                <img src="@/assets/SmallLogo.jpg" alt="">-->
+<!--            </div><div>-->
+<!--                <img src="@/assets/SmallLogo.jpg" alt="">-->
 
-            </div>
+<!--            </div>-->
 
-            </VueSlickCarousel>
-        </template>
+<!--            </VueSlickCarousel>-->
+<!--        </template>-->
 
 
 
@@ -283,27 +282,23 @@
             <div class="parent-container-3">
                 <div class="child-of-1-3">
                     <h3>Therapy sessions</h3>
-                    <p>Therapy sessions are an hour long and can take place at my offices in Bergvliet or Sea Point.<br><br>
-                        R500 per hour and R250 per half hour thereafter
+                    <p>Sessions are usually an hour long and are R600 per hour and R300 per half hour thereafter
                     </p>
                 </div>
                 <div class="child-of-1-3">
                     <h3>Home visits</h3>
-                    <p>R500 per hour and R250 per half hour thereafter<br><br>
-                        Billed hours include travel time<br>
-                        AA rates may apply
+                    <p>R600 per hour and R300 per hour thereafter
+                        Travel time and AA rates may apply
                     </p>
                 </div>
                 <div class="child-of-1-3">
                     <h3>Workshops</h3>
-                    <p>Workshops costs vary depending on the size and length of workshop.<br><br>
-                        Parent workshops are roughly R250 per family<br><br>
-                        Please contact me for teacher workshops and student talks.
-                    </p>
+                    <p>Workshops are usually between 2-3 hours long and cost R300 per person or R450 per couple.
+                        Group workshops can be prearranged with discounted prices for groups larger than 8 people.
+                    </p><br>
                 </div>
 
             </div>
-
         </section>
 
 

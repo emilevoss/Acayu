@@ -270,6 +270,17 @@ section {
     padding: 5% 0;
 }
 
+.service-list {
+    color: #8a8a8a
+
+}
+
+.service-list-list {
+    list-style: circle;
+    line-height: 200%;
+    padding-left: 5%;
+}
+
 
 /*-------------------------------------------- Workshops ----*/
 
