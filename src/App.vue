@@ -58,11 +58,11 @@
         <!---------------------------------------------------------------------------------->
         <!----- About Section START ----->
         <div class="scroll-display"></div>
-        <section class="clamp-1280" id="about">
+        <section id="about">
             <h1>About Me</h1>
             <div class="parent-container-2">
-                <div class="child-of-1-2 about-img">
-                    <img src="@/assets/SmallLogo.jpg" alt="About IMG goes here">
+                <div class="child-of-1-2">
+                    <img class="about-img" src="@/assets/profile-pic.jpg" alt="About IMG goes here">
                 </div>
                 <div class="child-of-2-2">
                     <h3>My name is Candice Voss and I am a Parent Support and Child Behaviour Consultant.
@@ -112,7 +112,7 @@
             <div class="parent-container-3">
                 <div class="child-of-1-3">
                     <div class="servicesImg">
-                        <img src="@/assets/SmallLogo.jpg" class="services-image" alt="">
+                        <img src="@/assets/autism-support.jpg" class="services-image" alt="">
                     </div>
                     <h3>Autism Support</h3>
                     <p>I have worked with autistic individuals and autism organisations for over a decade.
@@ -140,7 +140,7 @@
                 </div>
                 <div class="child-of-1-3">
                     <div class="servicesImg">
-                        <img src="@/assets/SmallLogo.jpg" class="services-image" alt="">
+                        <img src="@/assets/classroom-support.jpg" class="services-image" alt="">
                     </div>
                     <h3>Teacher Support</h3>
                     <p>I offer teachers support with children who are having behavioural,, communication, sensory and social skill challenges with special focus being on supporting teachers with autistic learners.
@@ -163,7 +163,7 @@
                 </div>
                 <div class="child-of-1-3">
                     <div class="servicesImg">
-                        <img src="@/assets/SmallLogo.jpg" class="services-image" alt="">
+                        <img src="@/assets/parent-support.jpg" class="services-image" alt="">
                     </div>
                     <h3>Parent Support</h3>
                     <p>I offer parents support at my practice as well as offer home visits. I focus on practical solutions for parents to implement at home to make life more manageable and enjoyable at home.

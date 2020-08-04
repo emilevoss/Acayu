@@ -1,0 +1,783 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="autism, behavior, workshops">
+    <meta name="author" content="Candice Voss">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="src/assets/FaviconLogo.png" sizes="64x64">
+    <title>Content-Kids | </title>
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700&amp;display=swap" rel="stylesheet">
+
+
+    <link href="/js/app.js" rel="preload" as="script"><link href="/js/chunk-vendors.js" rel="preload" as="script"><script data-dapp-detection="">
+    (function() {
+        let alreadyInsertedMetaTag = false
+
+        function __insertDappDetected() {
+            if (!alreadyInsertedMetaTag) {
+                const meta = document.createElement('meta')
+                meta.name = 'dapp-detected'
+                document.head.appendChild(meta)
+                alreadyInsertedMetaTag = true
+            }
+        }
+
+        if (window.hasOwnProperty('web3')) {
+            // Note a closure can't be used for this var because some sites like
+            // www.wnyc.org do a second script execution via eval for some reason.
+            window.__disableDappDetectionInsertion = true
+            // Likely oldWeb3 is undefined and it has a property only because
+            // we defined it. Some sites like wnyc.org are evaling all scripts
+            // that exist again, so this is protection against multiple calls.
+            if (window.web3 === undefined) {
+                return
+            }
+            __insertDappDetected()
+        } else {
+            var oldWeb3 = window.web3
+            Object.defineProperty(window, 'web3', {
+                configurable: true,
+                set: function (val) {
+                    if (!window.__disableDappDetectionInsertion)
+                        __insertDappDetected()
+                    oldWeb3 = val
+                },
+                get: function () {
+                    if (!window.__disableDappDetectionInsertion)
+                        __insertDappDetected()
+                    return oldWeb3
+                }
+            })
+        }
+    })()</script><style type="text/css">.slick-track[data-v-e4caeaf8]{position:relative;top:0;left:0;display:block;-webkit-transform:translateZ(0);transform:translateZ(0)}.slick-track.slick-center[data-v-e4caeaf8]{margin-left:auto;margin-right:auto}.slick-track[data-v-e4caeaf8]:after,.slick-track[data-v-e4caeaf8]:before{display:table;content:""}.slick-track[data-v-e4caeaf8]:after{clear:both}.slick-loading .slick-track[data-v-e4caeaf8]{visibility:hidden}.slick-slide[data-v-e4caeaf8]{display:none;float:left;height:100%;min-height:1px}[dir=rtl] .slick-slide[data-v-e4caeaf8]{float:right}.slick-slide img[data-v-e4caeaf8]{display:block}.slick-slide.slick-loading img[data-v-e4caeaf8]{display:none}.slick-slide.dragging img[data-v-e4caeaf8]{pointer-events:none}.slick-initialized .slick-slide[data-v-e4caeaf8]{display:block}.slick-loading .slick-slide[data-v-e4caeaf8]{visibility:hidden}.slick-vertical .slick-slide[data-v-e4caeaf8]{display:block;height:auto;border:1px solid transparent}.slick-arrow.slick-hidden[data-v-21137603]{display:none}.slick-slider[data-v-3d1a4f76]{position:relative;display:block;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-touch-callout:none;-khtml-user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent}.slick-list[data-v-3d1a4f76]{position:relative;display:block;overflow:hidden;margin:0;padding:0;-webkit-transform:translateZ(0);transform:translateZ(0)}.slick-list[data-v-3d1a4f76]:focus{outline:none}.slick-list.dragging[data-v-3d1a4f76]{cursor:pointer;cursor:hand}</style><style type="text/css">@charset 'UTF-8';
+/* Icons */
+@font-face {
+    font-family: 'slick';
+    src: url(data:application/font-woff;charset=utf-8;base64,d09GRgABAAAAAATsAA0AAAAAB2wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAE0AAAABoAAAAcdIcYB0dERUYAAAS0AAAAHAAAAB4AJwANT1MvMgAAAZwAAABRAAAAYFAQ/45jbWFwAAACAAAAAFcAAAFiIhFFt2dhc3AAAASsAAAACAAAAAj//wADZ2x5ZgAAAmgAAAE1AAACLD+btmBoZWFkAAABMAAAAC8AAAA2AAEx+2hoZWEAAAFgAAAAHAAAACQD5QIFaG10eAAAAfAAAAAQAAAAFgZKAEpsb2NhAAACWAAAABAAAAAQATYBoG1heHAAAAF8AAAAHQAAACAASwBHbmFtZQAAA6AAAADcAAABbgUngcJwb3N0AAAEfAAAAC4AAABFOXjBpHjaY2BkYGAA4vMGfuHx/DZfGbiZGEDgfGFFPZxWZVBlvM14G8jlYABLAwAT1QnNAHjaY2BkYGC8zcDAoMfEAAJANiMDKmABADBkAe942mNgZGBgYGdwYWBiAAEQycgAEnMA8xkACcgAkwAAAHjaY2BmYmCcwMDKwMDow5jGwMDgDqW/MkgytDAwMDGwcjKAQQNQCZBSYICCgDTXFAYHhkTFSYwP/j9g0GO8/f82A0QNA+NtsBIFBkYANHMN4wAAAHjaY2KAACYIVoVAAALCAJt42mNgYGBmgGAZBkYGEIgB8hjBfBYGByDNw8DBwARkMzAkKigpTlCc9P8/WB0S7/+i+4/uld4rgZoAB4xsDHAhRiYgwcSApoCBcsBMBTNYGGgGAEdEDyUAAAAAAAAAAAAAZgCKANABFnjadZBdToNAEMd3CrtAl5TQLtS0LCoN0A8SGkBI+mAfPET75B1896HppfQcvnII4w3cLYpW6k4ymdn9z8xvBwEKUQg11OgBIXAYWUEQR1uIZoFGpLGxKy3PqrIq8+waXIfJ+5mQSSvkvXwRqqocu1D39QMl2JgvN9zzhsyk1GRDz+OBfzMioCqx0rtdLYo0SiZTZttsOkmidBkveKibFF4Oep9SI46bqk3Twhp4iihUemrMWFPy2NRbthfqKkHi/PxlJLITZdAiSj6ouZ+tn9eZz78DuD9LZYB6bZ8rlCAUVuVdkULjxV4sIEysIc/KSyPmnJDdjhCOdQ0fCTliTX/tjH3ysWao+71qaNjHQjcQwrcuyl+WLZQthCMotJP/h+Xjazz+hfTeRWmG4zOiSyif/q1OtAAAAHjabY49asNAEIU/2ZJDfkiRIvXapUFCEqpcptABUrg3ZhEiQoKVfY9UqVLlGDlADpAT5e16IUWysMz3hjfzBrjjjQT/EjKpCy+4YhN5yZoxcirPe+SMWz4jr6S+5UzSa3VuwpTnBfc8RF7yxDZyKs9r5IxHPiKv1P9iZqDnyAvMQ39UecbScVb/gJO03Xk4CFom3XYK1clhMdQUlKo7/d9NF13RkIdfy+MV7TSe2sl11tRFaXYmJKpWTd7kdVnJ8veevZKc+n3I93t9Jnvr5n4aTVWU/0z9AI2qMkV42mNgYkAGjAzogB0sysTgwtDOyMTIzJlYVJRfnpOaVsIFZhVlpmeUAABuKQkSAAAAAAAB//8AAnjaY2BkYGDgAWIxIGZiYARCNiBmAfMYAAPgADV42mNgYGBkAIKrS9Q5QPT5wop6GA0APf8GGAAA)
+    format('woff');
+}
+/* Arrows */
+.slick-prev,
+.slick-next {
+    font-size: 0;
+    line-height: 0;
+
+    position: absolute;
+    top: 50%;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before {
+    opacity: 1;
+}
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before {
+    opacity: 0.25;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+
+    opacity: 0.75;
+    color: white;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev {
+    left: -25px;
+}
+[dir='rtl'] .slick-prev {
+    right: -25px;
+    left: auto;
+}
+.slick-prev:before {
+    content: '←';
+}
+[dir='rtl'] .slick-prev:before {
+    content: '→';
+}
+
+.slick-next {
+    right: -25px;
+}
+[dir='rtl'] .slick-next {
+    right: auto;
+    left: -25px;
+}
+.slick-next:before {
+    content: '→';
+}
+[dir='rtl'] .slick-next:before {
+    content: '←';
+}
+
+/* Dots */
+.slick-dotted.slick-slider {
+    margin-bottom: 30px;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -25px;
+
+    display: block;
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+.slick-dots li {
+    position: relative;
+
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+
+    cursor: pointer;
+}
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus {
+    outline: none;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before {
+    opacity: 1;
+}
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '•';
+    text-align: center;
+
+    opacity: 0.25;
+    color: black;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before {
+    opacity: 0.75;
+    color: black;
+}
+</style><style type="text/css">/*----------------------- Global Styles ---------------------*/
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+textarea {
+    font-family: 'Comfortaa', 'sans-serif';
+    color: #313131;
+}
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', 'sans-serif';
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+    color: #414141;
+}
+body {
+    -ms-scroll-chaining: none;
+    overscroll-behavior: none;
+    overflow-x: hidden;
+    -ms-touch-action: none;
+    touch-action: none;
+}
+h1,
+h2,
+h3,
+p {
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+h1 {
+    margin: 6% 0;
+    font-size: 200%;
+    text-align: center;
+    color: #383838;
+}
+h1:after {
+    display: block;
+    height: 2px;
+    background-color: #02a81d;
+    content: " ";
+    width: 8%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+h2 {
+    font-size: 170%;
+    text-align: center;
+    margin-bottom: 5%;
+    color: #414141;
+}
+h3 {
+    font-size: 110%;
+    color: #4b4b4b;
+}
+p {
+    color: #8a8a8a;
+}
+section {
+    padding: 4.2% 0;
+}
+.clamp-1280 {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+/*----------------------------- Header --------------------*/
+.header-wrap {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/banner-bg.baaa7f9e.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.header-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.header-section.scroll {
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+/*.scroll {*/
+/*    background-color: rgba(0, 0, 0, 0.63);*/
+/*}*/
+.header-sticky {
+    color: #313131;
+}
+.header-logo {
+    padding: 10px;
+}
+.header-img {
+    width: 116px;
+    height: auto;
+}
+.header-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 235px;
+    top: 34px;
+    right: 45px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    position: fixed;
+}
+.header-text {
+    width: 127px;
+    padding-right: 4%;
+    color: #ffffff;
+}
+.header-text>span {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.header-burger {
+    width: 43px;
+    height: 30px;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding-bottom: 3px;
+    position: relative;
+}
+.line {
+    width: 100%;
+    height: 3px;
+    background-color: #02a81d;
+    -webkit-transition: all 0.7s ;
+    transition: all 0.7s ;
+}
+.header-burger.open .line-1 { -webkit-transform: rotateZ(-45deg) translate(-8px, 9px); transform: rotateZ(-45deg) translate(-8px, 9px);
+}
+.header-burger.open .line-2 { opacity: 0;
+}
+.header-burger.open .line-3 { -webkit-transform: rotateZ(45deg) translate(-8px, -7px); transform: rotateZ(45deg) translate(-8px, -7px);
+}
+
+
+
+/*--------------------------------- Menu ----------------------*/
+.nav-list-block {
+    right: -68%;
+    -webkit-transition: right 0.2s cubic-bezier(0, 0 , 0, 0.2);
+    transition: right 0.2s cubic-bezier(0, 0 , 0, 0.2);
+    width: 40%;
+    height: 100%;
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 1;
+    padding-top: 85px;
+    background-color: #404040;
+    top: 0;
+    border-radius: 90px 0 0 90px;
+}
+.nav-list-block.open {
+    right: 0;
+    -webkit-transition: right 0.4s cubic-bezier(0.2, 0 , 0, 1);
+    transition: right 0.4s cubic-bezier(0.2, 0 , 0, 1);
+}
+.nav-item {
+    list-style: none;
+    margin: 25px;
+}
+.nav-link {
+    color: white;
+    padding: 3px 0;
+    text-decoration: none;
+    font-size: 130%;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+.nav-link:hover { border-bottom: 3px solid  #02a81d;
+}
+
+
+/*-------------------------------------------- About Me ----*/
+.parent-container-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.child-of-1-2 { width: 40%;
+}
+.child-of-2-2 {
+    padding: 0 2%;
+    width: 50%;
+}
+
+/*-------------------------------------------- Collabs ----*/
+.collab-info {
+    color: #838383;
+    font-size: 80%;
+    padding: 0 2%;
+}
+.collab-child-of-1-2 {
+    width: 50%;
+    padding: 0 2%;
+}
+
+
+/*-------------------------------------------- Services ----*/
+.parent-container-3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.servicesImg { text-align: center;
+}
+.child-of-1-3 { padding: 0 2%; width: 33%
+}
+.services-image {
+    width: 200px;
+    padding-bottom: 10%;
+}
+.servicesImg img {
+    width: 30%;
+    padding: 5% 0;
+}
+.service-list {
+    color: #8a8a8a
+}
+.service-list-list {
+    list-style: circle;
+    line-height: 200%;
+    padding-left: 5%;
+}
+
+
+/*-------------------------------------------- Workshops ----*/
+.workshop-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.workshop-offering { padding: 0 2%; -webkit-box-flex: 1; -ms-flex: 1; flex: 1;
+}
+
+
+
+/*-------------------------------------------- Rates & Bookings ----*/
+.school-support {
+    text-align: center;
+    padding-top: 7%;
+}
+
+
+/*-------------------------------------------- Contact ----*/
+input {
+    font-family: 'Comfortaa', 'sans-serif';
+    font-size: 130%;
+}
+.form {
+    margin: 0 auto;
+    width: 70%
+}
+.form-container {
+    width: 100%;
+    margin: 0 auto;
+}
+.form-block { margin-top: 30px;
+}
+.form-block-1 {
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.form-label {
+    font-size: 140%;
+    padding-right: 5px;
+}
+.form-label-1 {
+    font-size: 140%;
+    padding: 0 0 10px 0;
+}
+.form-input {
+    border: 1px solid #e2e2e2;
+    width: 58%;
+    padding: 5px 0 5px 10px
+}
+.form-input-subject {
+    width: 100%;
+    padding: 5px 0 5px 10px;
+    border: 1px solid #e2e2e2;
+    font-size: 90%;
+}
+.form-input-1 {
+    border: 1px solid #e2e2e2;
+    width: 50%;
+    height: 200px;
+    padding: 10px 0 0 10px;
+    font-size: 80%;
+}
+#option-select {
+    width: 200px;
+    font-family: 'Comfortaa', 'sans-serif';
+}
+.contact-btn {
+    background-color: #ffffff;
+    padding: 10px;
+    font-size: 110%;
+    color: #383838;
+    border: 2px solid #02a81d;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    border-radius: 7px;
+}
+.contact-btn:hover {
+    background-color: #02a81d;
+    color: #ffffff;
+}
+.contact-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 14%;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+}
+.contact-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 32%;
+}
+.contact-block a {
+    text-decoration: none;
+    color: #383838;
+}
+.submit-thanks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 80px;
+}
+.contact-img { width: 17%;
+}
+.btn-submit-thanks {
+    -webkit-text-decoration: #313131;
+    text-decoration: #313131;
+    font-size: 1.6em;
+}
+.thankyou-img {
+    width: 100%;
+}
+
+
+/*-------------------------------------------- Slides ----*/
+.slide-section-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.slide-section-top {
+    overflow: hidden;
+    background-color: #c6c6c6;
+    margin: 0;
+    width: 100%;
+}
+.slide-section-top img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+}
+.slide-section-top img:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+}
+.slick-prev:before, .slick-next:before {
+    color: #313131;
+}
+.slick-slide img[data-v-e4caeaf8] {
+    margin: 0 auto;
+}
+</style><style type="text/css">/* from 640 - 1280 */
+@media only screen and (max-width: 1279px) {
+
+    /*.header-section {*/
+    /*    display: none;*/
+    /*}*/
+    .content-kids { font-size: 1.4vw;
+    }
+    .parent-container-2 {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .child-of-1-2 {
+        width: 80%;
+        padding-top: 2%;
+    }
+    .collab-child-of-1-2 {
+        width: 80%;
+        padding-top: 2%
+    }
+    .child-of-2-2 {
+        width: 80%;
+        padding-top: 2%
+    }
+    .about-img {
+        text-align: center;
+    }
+    .child-of-1-2 img {
+        width: 30%;
+        text-align: center;
+    }
+    .parent-container-3 {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .child-of-1-3 {
+        width: 80%;
+        padding-top: 2%
+    }
+    .collab-info {
+        padding: 0 10%;
+    }
+    .nav-link { font-size: 2.3vw}
+    .nav-list-block { width: 56%;
+    }
+}
+
+
+/* from 0 - 640 */
+@media only screen and (max-width: 639px) {
+
+    /*body { font-size: 3vw}*/
+    .content-kids { font-size: 3vw !important;
+    }
+    .parent-container-2 {-ms-flex-wrap: wrap;flex-wrap: wrap;
+    }
+    .child-of-1-2 { width: 80%; padding-top: 2%}
+    .collab-child-of-1-2 { width: 80%; padding-top: 2%}
+    .child-of-2-2 { width: 80%; padding-top: 2%}
+    h1 { font-size: 200%}
+    h3 { padding-bottom: 10px}
+    .nav-list-block { width: 68%;
+    }
+    .nav-link { font-size: 3vw}
+    .form-input,
+    .form-input-1 { width: 100%;}
+    .contact-block {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .contact-img { padding-bottom: 10px}
+    .contact-wrap { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column;}
+    .contact-img { width: 9%}
+}
+
+
+</style><style type="text/css">
+</style></head>
+<body>
+<noscript>
+    <strong>We're sorry but content-kids doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+</noscript>
+<div id="contentKids" class="content-kids"><div class="header-wrap"><div class="header-section"><div class="header-logo"><a title="Content-Kids" href="https://content-kids.com/"><img src="/img/SmallLogo.cbe3749e.png" alt="" class="header-img"></a></div><div class="header-menu"><div class="header-text"><span>MENU</span></div><div class="header-burger"><div class="line line-1"></div><div class="line line-2"></div><div class="line line-3"></div></div></div></div></div><div class="nav-list-block"><ul class="nav-list"><li class="nav-item"><a href="#about" class="nav-link">About Me</a></li></ul><ul class="nav-list"><li class="nav-item"><a href="#collaboration" class="nav-link">Collabs</a></li></ul><ul class="nav-list"><li class="nav-item"><a href="#services" class="nav-link">Services</a></li></ul><ul class="nav-list"><li class="nav-item"><a href="#rates" class="nav-link">Rates &amp; Bookings</a></li></ul><ul class="nav-list"><li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li></ul></div><div class="scroll-display"></div><section id="about" class="clamp-1280"><h1>About Me</h1><div class="parent-container-2"><div class="child-of-1-2 about-img"><img src="/img/SmallLogo.b98f5c07.jpg" alt="About IMG goes here"></div><div class="child-of-2-2"><h3>My name is Candice Voss and I am a Parent Support and Child Behaviour Consultant. Content-Kids is my private practice that is based in Cape Town, South Africa. I have had several years experience in working with children with challenging behaviours within the home as well as educational settings and offer parents as well as teachers support to understand children’s needs and behaviours. I specialise in working with children who are on the autism spectrum. </h3></div></div></section><div class="scroll-display"></div><div id="collaboration"></div><section class="clamp-1280"><h1>Collabs</h1><div class="collab-info"><h2>I work at Cape Town Therapy Hub on a Tuesday afternoons and consult closely with Naomi Botha from Speak Autism</h2></div><div class="parent-container-2"><div class="collab-child-of-1-2"><h3>Cape Town Therapy Hub</h3><p>Cape Town Therapy Hub is a therapeutic center located in Green Point. The Center offers psychological services, speech therapists, occupational therapists, dietetics, diagnostic educational assessments, parent support as well as autism support. Therapists are all part of a multidisciplinary team who have a wealth of knowledge and experience working with families and children. The vision of Cape Town Therapy Hub is to offer professional and personalised therapeutic services to clients in a multidisciplinary team environment.</p></div><div class="child-of-2-2"><h3>Speak Autism!</h3><p>Naomi uses a wide range of tried and tested key support strategies and teaching tools, for supporting and meeting the individual needs of our children with Asperger which falls on the Autism spectrum. She uses developmental and behavioural approaches to focus on the individual differences of each child; providing relationship based interventions with the goals of releasing potential, increasing understanding, developing confidence, improving skills and changing behaviour</p></div></div></section><section id="services" class="services-section clamp-1280"><h1>Services</h1><div class="parent-container-3"><div class="child-of-1-3"><div class="servicesImg"><img src="/img/SmallLogo.b98f5c07.jpg" alt="" class="services-image"></div><h3>Autism Support</h3><p>I have worked with autistic individuals and autism organisations for over a decade. I offer the following support services to parents, teachers and professionals:<br><br></p><div class="service-list"><ul class="service-list-list"><li>Home visits</li><li>Understanding autism </li><li>Autism and the sensory system</li><li>Positive behaviour management</li><li>Autism and toilet training</li><li>Communication strategies for the non speaking autistic child</li><li>Social stories</li><li>Social skills</li><li>Classroom behaviour management</li><li>Inclusive classroom support</li><li>IEP/ISP support or development</li><li>Class observations</li><li>Curriculum development for early learners</li><li>Facilitation training</li><li>Autism workshops</li></ul></div></div><div class="child-of-1-3"><div class="servicesImg"><img src="/img/SmallLogo.b98f5c07.jpg" alt="" class="services-image"></div><h3>Teacher Support</h3><p>I offer teachers support with children who are having behavioural,, communication, sensory and social skill challenges with special focus being on supporting teachers with autistic learners. I offer the following support services to teachers and schools:<br><br></p><div class="service-list"><ul class="service-list-list"><li>Classroom behaviour management</li><li>Inclusive classroom support</li><li>Emotional regulation in the classroom</li><li>IEP/ISP support or development</li><li>Class observations</li><li>Curriculum development for early learners</li><li>Curriculum adaptations</li><li>Facilitation training</li><li>Autism workshops</li><li>Workshops for teachers</li><li>Teacher support meetings</li></ul></div></div><div class="child-of-1-3"><div class="servicesImg"><img src="/img/SmallLogo.b98f5c07.jpg" alt="" class="services-image"></div><h3>Parent Support</h3><p>I offer parents support at my practice as well as offer home visits. I focus on practical solutions for parents to implement at home to make life more manageable and enjoyable at home. I offer the following support services to parents:<br><br></p><div class="service-list"><ul class="service-list-list"><li>Positive behaviour management</li><li>Positive parenting</li><li>A space for parents to air their concerns about their child</li><li>A space for parents to become consistent with their parenting choices</li><li>Discipline and boundaries at home</li><li>Baby sign language</li><li>Toilet training</li><li>Emotional regulation</li><li>Tantrum support</li><li>School placement guidance</li></ul></div></div></div></section><section id="rates" class="clamp-1280 workshop-section"><h1>Rates &amp; Bookings</h1><div class="parent-container-3"><div class="child-of-1-3"><h3>Therapy sessions</h3><p>Sessions are usually an hour long and are R600 per hour and R300 per half hour thereafter </p></div><div class="child-of-1-3"><h3>Home visits</h3><p>R600 per hour and R300 per hour thereafter Travel time and AA rates may apply </p></div><div class="child-of-1-3"><h3>Workshops</h3><p>Workshops are usually between 2-3 hours long and cost R300 per person or R450 per couple. Group workshops can be prearranged with discounted prices for groups larger than 8 people. </p><br></div></div></section><section id="contact" class="clamp-1280"><h1>Contact</h1><div class="collab-info"><h2>If you have any quiries please contact me</h2></div><div class="form clamp-1280"><form method="post" action="https://content-kids/ckform.php" class="form-container"><div class="form-block"><label class="form-label">First Name (required)</label><input type="text" placeholder="e.g Name" name="firstName" required="required" class="form-input" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;"></div><div class="form-block"><label class="form-label">Last Name (required)</label><input type="text" placeholder="e.g Surname" name="lastName" required="required" class="form-input"></div><div class="form-block"><label class="form-label">Subject</label><input type="text" name="subject" class="form-input-subject"></div><div class="form-block"><label class="form-label">Your Email (required)</label><input type="email" name="emailAddress" placeholder="e.g candy@content-kids.com" required="required" class="form-input"></div><div class="form-block-1"><label class="form-label-1">Your Message:</label><textarea name="message" placeholder="Write something..." class="form-input-1"></textarea></div><div><button name="submit" type="submit" class="contact-btn">Submit</button></div></form></div><!----><div class="contact-wrap"><div class="contact-block"><img src="/img/smartphoneck.a1a42660.svg" alt="Contact Number" class="contact-img"><h3>0823791701</h3></div><div class="contact-block"><img src="/img/emailck.6d5a67a0.svg" alt="" class="contact-img"><h3>candy@content-kids.com</h3></div><div class="contact-block"><img src="/img/facebookck.c509a4c4.svg" alt="" class="contact-img"><h3><a href="https://www.facebook.com/Content-kids-580004039112889/" target="_blank">Facebook</a></h3></div></div></section></div>
+<!-- built files will be auto injected -->
+<script type="text/javascript" src="/js/chunk-vendors.js"></script><script type="text/javascript" src="/js/app.js"></script>
+
+</body></html>
