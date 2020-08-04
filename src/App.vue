@@ -2,12 +2,12 @@
     <div class="content-kids" id="contentKids">
 
         <!----- Header Section START ----->
-
+      <div class="icon-scroll"></div>
         <div class="header-wrap">
             <div class="header-section" :class="{scroll: bgShow}">
                 <div class="header-logo">
                     <a title="Content-Kids" href="https://content-kids.com/">
-                        <img src="@/assets/SmallLogo.png" class="header-img" alt="">
+                        <img src="@/assets/MediumSquareLogo.jpg" class="header-img" alt="">
                     </a>
                 </div>
                 <div class="header-menu">
@@ -58,14 +58,14 @@
         <!---------------------------------------------------------------------------------->
         <!----- About Section START ----->
         <div class="scroll-display"></div>
-        <section id="about">
+        <section id="about" class="clamp-1280">
             <h1>About Me</h1>
-            <div class="parent-container-2">
+            <div class="parent-container-2 about-block">
                 <div class="child-of-1-2">
                     <img class="about-img" src="@/assets/profile-pic.jpg" alt="About IMG goes here">
                 </div>
                 <div class="child-of-2-2">
-                    <h3>My name is Candice Voss and I am a Parent Support and Child Behaviour Consultant.
+                    <h3 class="about-text">My name is Candice Voss and I am a Parent Support and Child Behaviour Consultant.
                         Content-Kids is my private practice that is based in Cape Town, South Africa. I have had several years experience in working with children with challenging behaviours within the home as well as educational settings and offer parents as well as teachers support to understand children’s needs and behaviours. I specialise in working with children who are on the autism spectrum.
                     </h3>
                 </div>
