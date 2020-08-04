@@ -224,29 +224,21 @@ section {
 
 /*-------------------------------------------- About Me ----*/
 
-
-about {
-
-
-}
 .parent-container-2 {
     display: flex;
     justify-content: center;
-    background-image: url("src/assets/profile-pic.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
 }
 
-.child-of-1-2 { width: 40%; }
+.child-of-1-2 { width: 50%; }
 
 .child-of-2-2 {
     padding: 0 2%;
-    width: 30%;
+    width: 50%;
 }
 
 .about-img {
     width: 100%;
+
 }
 
 /*-------------------------------------------- Collabs ----*/

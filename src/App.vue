@@ -189,32 +189,47 @@
         <!---------------------------------------------------------------------------------->
         <!----- Workshops Section START ----->
 
-<!--        <section class="clamp-1280 workshop-section" id="workshops">-->
-<!--            <h1>Workshops</h1>-->
-<!--            <div class="parent-container-3">-->
-<!--                <div class="child-of-1-3">-->
-<!--                    <h3>Parent Workshops</h3>-->
-<!--                    <p>Positive Parenting<br>-->
-<!--                        Behaviour Management<br>-->
-<!--                        Toilet Training-->
-<!--                    </p>-->
-<!--                </div>-->
-<!--                <div class="child-of-1-3">-->
-<!--                    <h3>Teacher Workshops</h3>-->
-<!--                    <p>Behaviour management in the classroom-->
-<!--                        Inclusive Strategies for the classroom-->
-<!--                        What is Autism-->
-<!--                    </p>-->
-<!--                </div>-->
-<!--                <div class="child-of-1-3">-->
-<!--                    <h3>Student Talks</h3>-->
-<!--                    <p>What is Autism (Children 3-6 years old) <br><br>-->
-<!--                        What is Autism (Children 6-14 years old)<br><br>-->
-<!--                        What is Autism (Teenagers 15-18 years old)-->
-<!--                    </p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </section>-->
+        <section class="clamp-1280 workshop-section" id="workshops">
+            <h1>Workshops</h1>
+            <div class="parent-container-3">
+                <div class="child-of-1-3">
+                    <h3>Workshops for parents and professionals:</h3>
+                      <div class="service-list">
+                        <ul class="service-list-list">
+                          <li>How to manage tantrums and meltdowns</li>
+                          <li>Positive behavior management</li>
+                          <li>How to emotionally regulate an autistic child</li>
+                          <li>Toilet training</li>
+                          <li>Communicating with a non-speaking child</li>
+                          <li>Introduction to autism</li>
+                        </ul>
+                      </div>
+
+                </div>
+                <div class="child-of-1-3">
+                    <h3>Workshops for teachers and professionals:</h3>
+                      <div class="service-list">
+                        <ul class="service-list-list">
+                          <li>Classroom Positive behavior management</li>
+                          <li>Inclusive classroom solutions</li>
+                        </ul>
+                      </div>
+                </div>
+                <div class="child-of-1-3">
+                    <h3>Parenting workshops:</h3>
+                      <div class="service-list">
+                        <ul class="service-list-list">
+                          <li>Classroom Positive behavior management</li>
+                          <li>How to manage tantrums and meltdowns</li>
+                          <li>Positive behavior management</li>
+                          <li>Emotional regulation</li>
+                          <li>Toilet training</li>
+                          <li>Anxiety</li>
+                        </ul>
+                      </div>
+                </div>
+            </div>
+        </section>
 
         <!---------------------------------------------------------------------------------->
         <!----- Slides Section START ----->
