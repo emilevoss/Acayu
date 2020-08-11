@@ -38,11 +38,11 @@
                     <a href="#services" class="nav-link">Services</a>
                 </li>
             </ul>
-<!--            <ul class="nav-list">-->
-<!--                <li class="nav-item">-->
-<!--                    <a href="#workshops" class="nav-link">Workshops</a>-->
-<!--                </li>-->
-<!--            </ul>-->
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#workshops" class="nav-link">Workshops</a>
+                </li>
+            </ul>
             <ul class="nav-list">
                 <li class="nav-item">
                     <a href="#rates" class="nav-link">Rates & Bookings</a>
@@ -193,7 +193,7 @@
             <h1>Workshops</h1>
             <div class="parent-container-3">
                 <div class="child-of-1-3">
-                    <h3>Workshops for parents and professionals:</h3>
+                    <h3>Autism workshops for parents and professionals:</h3>
                       <div class="service-list">
                         <ul class="service-list-list">
                           <li>How to manage tantrums and meltdowns</li>
@@ -207,10 +207,10 @@
 
                 </div>
                 <div class="child-of-1-3">
-                    <h3>Workshops for teachers and professionals:</h3>
+                    <h3>Autism workshops for teachers and professionals:</h3>
                       <div class="service-list">
                         <ul class="service-list-list">
-                          <li>Classroom Positive behavior management</li>
+                          <li>Classroom positive behavior management</li>
                           <li>Inclusive classroom solutions</li>
                         </ul>
                       </div>
@@ -219,12 +219,12 @@
                     <h3>Parenting workshops:</h3>
                       <div class="service-list">
                         <ul class="service-list-list">
-                          <li>Classroom Positive behavior management</li>
                           <li>How to manage tantrums and meltdowns</li>
                           <li>Positive behavior management</li>
                           <li>Emotional regulation</li>
                           <li>Toilet training</li>
                           <li>Anxiety</li>
+                          <li>3 Day positive behaviour management course</li>
                         </ul>
                       </div>
                 </div>

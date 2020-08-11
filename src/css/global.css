@@ -110,28 +110,28 @@ section {
     background-color: rgba(0, 0, 0, 0.63);
 }
 
-/*.scroll {*/
-/*    background-color: rgba(0, 0, 0, 0.63);*/
-/*}*/
-
 .header-sticky {
     color: #313131;
 }
 
 
 .header-img {
-    width: 91px;
+    width: 15%;
     height: auto;
     border-radius: 50%;
     margin: 5px;
+}
+
+.header-img.scroll {
+    width: 60px;
 }
 
 .header-menu {
     display: flex;
     flex-direction: row;
     width: 235px;
-    top: 34px;
-    right: 45px;
+    top: 4%;
+    right: 2%;
     align-items: center;
     justify-content: flex-end;
     position: fixed;
@@ -196,11 +196,6 @@ section {
     border: 2px solid #fff;
     border-radius: 25px
 }
-@media (max-width: 767px) {
-    .icon-scroll {
-        position: relative
-    }
-}
 .icon-scroll:before {
     content: '';
     width: 8px;
@@ -230,7 +225,7 @@ section {
     right: -68%;
     transition: right 0.2s cubic-bezier(0, 0 , 0, 0.2);
     width: 18%;
-    height: 80%;
+    height: 100%;
     position: fixed;
     display: flex;
     flex-direction: column;
