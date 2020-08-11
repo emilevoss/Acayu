@@ -7,12 +7,12 @@
             <div class="header-section" :class="{scroll: bgShow}">
                 <div class="header-logo">
                     <a title="Content-Kids" href="https://content-kids.com/">
-                        <img src="@/assets/MediumSquareLogo.jpg" class="header-img" alt="">
+                        <img src="@/assets/MediumSquareLogo.jpg" class="header-img" alt="Content-Kids Logo">
                     </a>
                 </div>
-                <div class="header-menu">
-                    <div class="header-text">
-                        <span>MENU</span>
+                <div class="header-menu" >
+                    <div class="header-text" >
+                        <span :class="{open: isOpen}">MENU</span>
                     </div>
                     <div @click="onClick" class="header-burger" :class="{open: isOpen}">
                         <div class="line line-1"></div>
@@ -62,7 +62,7 @@
             <h1>About Me</h1>
             <div class="parent-container-2 about-block">
                 <div class="child-of-1-2">
-                    <img class="about-img" src="@/assets/profile-pic.jpg" alt="About IMG goes here">
+                    <img class="about-img" src="@/assets/profile-pic.jpg" alt="Content-Kids Candy Voss profile">
                 </div>
                 <div class="child-of-2-2">
                     <h3 class="about-text">My name is Candice Voss and I am a Parent Support and Child Behaviour Consultant.
@@ -112,7 +112,7 @@
             <div class="parent-container-3">
                 <div class="child-of-1-3">
                     <div class="servicesImg">
-                        <img src="@/assets/autism-support.jpg" class="services-image" alt="">
+                        <img src="@/assets/autism-support.jpg" class="services-image" alt="Content-Kids Autism Support">
                     </div>
                     <h3>Autism Support</h3>
                     <p>I have worked with autistic individuals and autism organisations for over a decade.
@@ -140,7 +140,7 @@
                 </div>
                 <div class="child-of-1-3">
                     <div class="servicesImg">
-                        <img src="@/assets/classroom-support.jpg" class="services-image" alt="">
+                        <img src="@/assets/classroom-support.jpg" class="services-image" alt="Content-Kids Classroom Support">
                     </div>
                     <h3>Teacher Support</h3>
                     <p>I offer teachers support with children who are having behavioural,, communication, sensory and social skill challenges with special focus being on supporting teachers with autistic learners.
@@ -163,7 +163,7 @@
                 </div>
                 <div class="child-of-1-3">
                     <div class="servicesImg">
-                        <img src="@/assets/parent-support.jpg" class="services-image" alt="">
+                        <img src="@/assets/parent-support.jpg" class="services-image" alt="Content-Kids Parent Support">
                     </div>
                     <h3>Parent Support</h3>
                     <p>I offer parents support at my practice as well as offer home visits. I focus on practical solutions for parents to implement at home to make life more manageable and enjoyable at home.
@@ -368,15 +368,15 @@
 
             <div class="contact-wrap">
                 <div class="contact-block">
-                    <img src="@/assets/smartphoneck.svg" alt="Contact Number" class="contact-img">
+                    <img src="@/assets/smartphoneck.svg" alt="Content-Kids Contact Number" class="contact-img">
                     <h3>0823791701</h3>
                 </div>
                 <div class="contact-block">
-                    <img src="@/assets/emailck.svg" alt="" class="contact-img">
+                    <img src="@/assets/emailck.svg" alt="Content-Kids Email" class="contact-img">
                     <h3>candy@content-kids.com</h3>
                 </div>
                 <div class="contact-block">
-                    <img src="@/assets/facebookck.svg" alt="" class="contact-img">
+                    <img src="@/assets/facebookck.svg" alt="Content-Kids Facebook" class="contact-img">
                     <h3><a href="https://www.facebook.com/Content-kids-580004039112889/" target="_blank">Facebook</a>
                     </h3>
                 </div>
@@ -482,14 +482,10 @@
             this.openMenu = !this.openMenu
         };
 
-        showBar(event: any) {
-            this.bgShow = !this.bgShow
-        };
 
         isOpen: boolean = false;
         openMenu: boolean = false;
         bgShow: boolean = false;
-
         showThanks: boolean = false;
 
 

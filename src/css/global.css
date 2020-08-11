@@ -138,10 +138,11 @@ section {
 }
 
 .header-text {
-    width: 127px;
-    padding-right: 4%;
+    width: 40%;
     color: #ffffff;
 }
+
+.header-text .open {display: none;}
 
 .header-text>span {
     font-size: 1.8rem;
@@ -228,7 +229,7 @@ section {
 .nav-list-block {
     right: -68%;
     transition: right 0.2s cubic-bezier(0, 0 , 0, 0.2);
-    width: 28%;
+    width: 18%;
     height: 80%;
     position: fixed;
     display: flex;
