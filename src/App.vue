@@ -334,11 +334,11 @@
                 <form v-if="!showThanks" @submit="submitForm" method="post" action="https://content-kids/ckform.php" class="form-container">
                     <div class="form-block">
                         <label class="form-label">First Name (required)</label>
-                        <input class="form-input" v-model="form.Name" type="text" placeholder="e.g Name" name="firstName" required>
+                        <input class="form-input" v-model="form.Name" type="text" name="firstName" required>
                     </div>
                     <div class="form-block">
                         <label class="form-label">Last Name (required)</label>
-                        <input class="form-input" v-model="form.Surname" type="text" placeholder="e.g Surname" name="lastName" required>
+                        <input class="form-input" v-model="form.Surname" type="text" name="lastName" required>
                     </div>
                     <div class="form-block">
                         <label class="form-label">Subject</label>

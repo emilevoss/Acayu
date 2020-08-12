@@ -33,7 +33,7 @@
 
 
     .child-of-1-2 img {
-        width: 30%;
+        width: 100%;
         text-align: center;
     }
 
@@ -61,6 +61,10 @@
 
 /* from 0 - 640 */
 @media only screen and (max-width: 639px) {
+
+    p {
+        padding: 10px 0 10px 0;
+    }
 
     /*body { font-size: 3vw}*/
     .content-kids { font-size: 3vw !important; }
