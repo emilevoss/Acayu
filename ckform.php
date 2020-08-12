@@ -27,7 +27,7 @@ $tableName = "contentkidsform";
 
 
 
-$mailTo = "ecandy@content-kids.com";
+$mailTo = "candy@content-kids.com";
 $headers = "From: $emailAddress";
 $txt = "$message";
 
