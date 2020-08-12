@@ -24,8 +24,7 @@ html {
 
 body {
     overscroll-behavior: none;
-    overflow-x: hidden;
-    touch-action: none;
+    touch-action: auto;
 }
 
 
