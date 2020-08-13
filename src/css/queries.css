@@ -101,6 +101,10 @@
         top: 2%;
     }
 
+    .header-wrap {
+        background-attachment:scroll
+    }
+
 
 }
 
