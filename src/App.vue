@@ -10,6 +10,7 @@
                         <img src="@/assets/MediumSquareLogo.jpg" class="header-img" alt="Content-Kids Logo">
                     </a>
                 </div>
+
                 <div class="header-menu" >
                     <div class="header-text" >
                         <span :class="{open: isOpen}">MENU</span>
@@ -22,6 +23,7 @@
                 </div>
             </div>
         </div>
+      <div class="scroll-display"></div>
         <div @click="onClick" class="nav-list-block" :class="{open: openMenu}">
             <ul class="nav-list">
                 <li class="nav-item">
@@ -57,7 +59,7 @@
 
         <!---------------------------------------------------------------------------------->
         <!----- About Section START ----->
-        <div class="scroll-display"></div>
+
         <section id="about" class="clamp-1280">
             <h1>About Me</h1>
             <div class="parent-container-2 about-block">
@@ -72,7 +74,6 @@
             </div>
 
         </section>
-        <div class="scroll-display"></div>
         <!---------------------------------------------------------------------------------->
         <!----- Collaborations Section START ----->
         <div id="collaboration"></div>
