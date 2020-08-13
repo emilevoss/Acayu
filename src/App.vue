@@ -79,7 +79,7 @@
         <section class="clamp-1280">
             <h1>Collabs</h1>
             <div class="collab-info">
-                <h2>I work at Cape Town Therapy Hub on a Tuesday afternoons and consult closely with Naomi Botha from
+                <h2>I work at Cape Town Therapy Hub on a Tuesday afternoon and consult closely with Naomi Botha from
                     Speak Autism</h2>
             </div>
             <div class="parent-container-2">
