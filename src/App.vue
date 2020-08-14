@@ -85,7 +85,7 @@
             </div>
             <div class="parent-container-2">
                 <div class="collab-child-of-1-2">
-                    <h3>Cape Town Therapy Hub</h3>
+                  <h3><a href="https://cttherapyhub.co.za/" target="_blank">Cape Town Therapy Hub</a></h3>
                     <p>Cape Town Therapy Hub is a therapeutic center located in Green Point. The Center offers
                         psychological services, speech therapists, occupational therapists, dietetics, diagnostic
                         educational assessments, parent support as well as autism support. Therapists are all part of a
@@ -94,7 +94,7 @@
                         therapeutic services to clients in a multidisciplinary team environment.</p>
                 </div>
                 <div class="child-of-2-2">
-                    <h3>Speak Autism!</h3>
+                  <h3><a href="http://www.speakautism.co.za/" target="_blank">Speak Autism!</a></h3>
                     <p>Naomi uses a wide range of tried and tested key support strategies and teaching tools, for
                         supporting and meeting the individual needs of our children with Asperger which falls on the
                         Autism spectrum. She uses developmental and behavioural approaches to focus on the individual
@@ -370,7 +370,7 @@
             <div class="contact-wrap">
                 <div class="contact-block">
                     <img src="@/assets/smartphoneck.svg" alt="Content-Kids Contact Number" class="contact-img">
-                    <h3>0823791701</h3>
+                    <h3>+27823791701</h3>
                 </div>
                 <div class="contact-block">
                     <img src="@/assets/emailck.svg" alt="Content-Kids Email" class="contact-img">
