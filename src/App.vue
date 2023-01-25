@@ -326,47 +326,6 @@
             <div class="collab-info">
                 <h2>If you have any quiries please contact me</h2>
             </div>
-
-
-            <!---------------------------------------------------------------------------------->
-            <!----- Form Section ----->
-
-            <div class="form clamp-1280">
-                <form v-if="!showThanks" @submit="submitForm" method="post" action="https://content-kids/ckform.php" class="form-container">
-                    <div class="form-block">
-                        <label class="form-label">First Name (required)</label>
-                        <input class="form-input" v-model="form.Name" type="text" name="firstName" required>
-                    </div>
-                    <div class="form-block">
-                        <label class="form-label">Last Name (required)</label>
-                        <input class="form-input" v-model="form.Surname" type="text" name="lastName" required>
-                    </div>
-                    <div class="form-block">
-                        <label class="form-label">Subject</label>
-                        <input class="form-input-subject" v-model="form.Subject" type="text" name="subject">
-                    </div>
-                    <div class="form-block">
-                        <label class="form-label">Your Email (required)</label>
-                        <input class="form-input" v-model="form.EmailAddress" type="email" name="emailAddress" placeholder="e.g candy@content-kids.com" required>
-                    </div>
-                    <div class="form-block-1">
-                        <label class="form-label-1">Your Message:</label>
-                        <textarea class="form-input-1" v-model="form.Message" name="message" placeholder="Write something..."></textarea>
-                    </div>
-                    <div>
-                        <button class="contact-btn" name="submit" type="submit">Submit</button>
-                    </div>
-                </form>
-               </div>
-            <div v-if="showThanks" class="submit-thanks">
-                <div class="thankyou-message">
-                    <img src="@/assets/check.svg" alt="Thank you for submitting the form" class="thankyou-img">
-                </div>
-                <h2 class="btn-submit-thanks">Thank you for contacting Content-Kids. We will get back to you as soon as we can.</h2>
-            </div>
-            <!---------------------------------------------------------------------------------->
-
-
             <div class="contact-wrap">
                 <div class="contact-block">
                     <img src="@/assets/smartphoneck.svg" alt="Content-Kids Contact Number" class="contact-img">
