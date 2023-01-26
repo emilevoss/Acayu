@@ -408,33 +408,6 @@
 
         };
 
-        submitForm (e:Event) {
-            e.preventDefault();
-                let currentObj = this;
-                axios.post('https://content-kids.com/ckform.php', {
-                    firstName: this.form.Name,
-                    lastName: this.form.Surname,
-                    _subject: this.form.Subject,
-                    emailAddress: this.form.EmailAddress,
-                    _message: this.form.Message,
-                })
-                    .then((response: any) => {
-                        this.showThanks = true;
-                        console.log(response.data);
-                    })
-                    .catch((error: any) => {
-                        console.log(error);
-                        this.showThanks = false;
-                    });
-        }
-
-        form: userInfo = {
-            Name: '',
-            Surname: '',
-            Subject: '',
-            EmailAddress: '',
-            Message: '',
-        };
 
         onClick(event: any) {
             this.isOpen = !this.isOpen
